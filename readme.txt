@@ -1,4 +1,4 @@
-=== Catch Web Tools By catchthemes.com ===
+=== Catch Web Tools ===
 Contributors: catchthemes
 Donate link: http://catchthemes.com/wp-plugins/catch-web-tools/
 License: GPLv2
