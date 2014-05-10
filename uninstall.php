@@ -1,7 +1,9 @@
 <?php
 /**
- * @package Catch_web_tools
- * @version 1.0
+ * @package Catch Themes
+ * @subpackage Catch Web Tools
+ * @author CatchThemes
+ * @since Catch Web Tools 0.1
  * Code used when the plugin is removed (not just deactivated but actively deleted through the WordPress Admin).
  */
 

@@ -1,24 +1,35 @@
 === Catch Web Tools ===
 Contributors: catchthemes
 Donate link: http://catchthemes.com/wp-plugins/catch-web-tools/
-License: GPLv2
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GNU General Public License, version 3 (GPLv3)
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 Tags: catch-ids, simple, admin, wp-admin, show, ids, post, page, category, media, links, tag, user, widget, seo, search engine optimization, google, alexa, bing, meta keywords, meta description, social icons, github, dribbble, twitter, facebook, wordpress, googleplus, linkedin, pinterest, flickr, vimeo, youtube, tumblr, instagram, codepen, polldaddy, path, css, open graphs, plugin, posts, sidebar, image, images
 Requires at least: 3.5
-Tested up to: 3.7.1
-Stable tag: 0.1
+Tested up to: 3.9.1
+Stable tag: 0.2
 
 Improve your WordPress site with powerful web tools by catchthemes.com.
 
 == Description ==
 
-Catch Web Tools is a simple and lightweight WordPress plugin to help you manage your WordPress site. Power up your WordPress site with powerful features that were till now only available to Catch Themes users. We currently offer Webmaster Tools, Open Graph, Custom CSS, Social Icons, Catch IDs and basic SEO Optimization.
+Catch Web Tools is a new modular plugin from Catch Themes. Power up your WordPress site with powerful features that were till now only available to Catch Themes users. We currently offer Webmaster Tools, Open Graph, Custom CSS, Social Icons, Catch IDs and basic SEO Optimization modules and will be adding more.
+
+= Here are some quick reasons why you should check these out! =
+
+Let's begin with how easy the setup process is. It's just a matter of clicks. 
+
+One usual assumption people have is like when a plugin offers multiple features and facilities, it loads slow. However, Catch Web Tools offers modular plugins that you activate manually. Which simply means, that if there are 50 different facilities the plugin offers, your site won't take the load of those 50 features unless you activate them. You have the option of activating manually the exact feature's you need and not unnecessarily overload your site. 
+
+Catch Web Tools is available for free downloads at this point. Which means, you will get a lot of advanced features that would make your site interesting, efficient and professional - for free!
+
+Catch Web Tools use clean coding that follows WordPress's standard guideline. Which means, zero hassles and perfect compatibility with your themes!
+
 
 = Premium Support =
 
-Catch Themes team does not provide support for the Catch Web Tools plugin on the WordPress.org forums. Support is provided at http://catchthemes.com/forum/catch-web-tools/
+Catch Themes team does not provide support for the Catch Web Tools plugin on the WordPress.org forums. Support is provided at [Catch Web Tools Support Forum](http://catchthemes.com/forum/catch-web-tools/) 
 
-== Translation ==
+= Translation =
 
 Catch Web Tools plugin is translation ready. 
 
@@ -124,6 +135,9 @@ Catch Web Tools: SEO Settings
 
 
 == Changelog ==
+
+= 0.2 =
+* Check WordPress compatibility up to version 3.9.1
 
 = 0.1 =
 * Initial Release

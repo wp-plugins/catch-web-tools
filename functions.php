@@ -2,22 +2,23 @@
 /**
  * Plugin Name: Catch Web Tools
  * Plugin URI: http://catchthemes.com/wp-plugins/catch-web-tools/
- * Description: Catch Web Tools is a simple and lightweight WordPress plugin to help you manage your WordPress site. Power up your WordPress site with powerful features that were till now only available to Catch Themes users. We currently offer Webmaster Tools, Open Graph, Custom CSS, Social Icons, Catch IDs and basic SEO Optimization.
+ * Description: Catch Web Tools is a new modular plugin from Catch Themes. Power up your WordPress site with powerful features that were till now only available to Catch Themes users. We currently offer Webmaster Tools, Open Graph, Custom CSS, Social Icons, Catch IDs and basic SEO Optimization modules and will be adding more.
  * Author: Catch Themes Team
  * Author URI:  http://catchthemes.com
  * Version: 0.1
- * License: GPLv2 or later (license.txt)
+ * License: GNU General Public License, version 3 (GPLv3)
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
  * Requires at least: 3.5
- * Tested up to: 3.7.1
+ * Tested up to: 3.9.1
  *
  * Text Domain: catch-web-tools
  * Domain Path: /catch-web-tools/
  *
- * @package catch_web_tools
+ * @package Catch Themes
+ * @subpackage Catch Web Tools
  * @author CatchThemes
  */
-
-
+ 
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) ) exit;
 
