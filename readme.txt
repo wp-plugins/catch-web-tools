@@ -6,7 +6,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 Tags: catch-ids, simple, admin, wp-admin, show, ids, post, page, category, media, links, tag, user, widget, seo, search engine optimization, google, alexa, bing, meta keywords, meta description, social icons, github, dribbble, twitter, facebook, wordpress, googleplus, linkedin, pinterest, flickr, vimeo, youtube, tumblr, instagram, codepen, polldaddy, path, css, open graphs, plugin, posts, sidebar, image, images
 Requires at least: 3.5
 Tested up to: 3.9.1
-Stable tag: 0.2
+Stable tag: 0.3
 
 Improve your WordPress site with powerful web tools by catchthemes.com.
 
@@ -32,6 +32,7 @@ Catch Themes team does not provide support for the Catch Web Tools plugin on the
 = Translation =
 
 Catch Web Tools plugin is translation ready. 
+Added Translation for Brazilian Portuguese by Valdir Trombini ( Email: valdir.trombini@hotmail.com )
 
 == Installation ==
 
@@ -135,6 +136,9 @@ Catch Web Tools: SEO Settings
 
 
 == Changelog ==
+= 0.3 =
+* Added Brazilian Portuguese translation pt_BR.po and pt_BR.mo
+* Fixed textdomain issue with .pot files
 
 = 0.2 =
 * Check WordPress compatibility up to version 3.9.1

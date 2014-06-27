@@ -5,7 +5,7 @@
  * Description: Catch Web Tools is a new modular plugin from Catch Themes. Power up your WordPress site with powerful features that were till now only available to Catch Themes users. We currently offer Webmaster Tools, Open Graph, Custom CSS, Social Icons, Catch IDs and basic SEO Optimization modules and will be adding more.
  * Author: Catch Themes Team
  * Author URI:  http://catchthemes.com
- * Version: 0.2
+ * Version: 0.3
  * License: GNU General Public License, version 3 (GPLv3)
  * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
  * Requires at least: 3.5
@@ -24,7 +24,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 
 
 // Define Version
-define( 'CATCHWEBTOOLS_VERSION', '0.1' );
+define( 'CATCHWEBTOOLS_VERSION', '0.3' );
 
 
 // The URL of the directory that contains the plugin
@@ -40,16 +40,16 @@ if ( !defined( 'CATCHWEBTOOLS_PATH' ) )
 // Gets the path to a plugin file or directory, relative to the plugins directory, without the leading and trailing slashes. 
 if ( !defined( 'CATCHWEBTOOLS_BASENAME' ) )
 	define( 'CATCHWEBTOOLS_BASENAME', plugin_basename( __FILE__ ) );
-	
+
 
 /**
  * Make plugin available for translation
  * Translations can be filed in the /languages/ directory
  */
 function catchwebtools_load_textdomain() {
-	load_plugin_textdomain( 'catch-web-tools', false, basename( dirname( __FILE__ ) ) . '/languages' );
+	load_plugin_textdomain( 'catchwebtools', false, basename( dirname( __FILE__ ) ) . '/languages/' );
 }
-add_filter( 'wp_loaded', 'catchwebtools_load_textdomain' );
+add_filter( 'init', 'catchwebtools_load_textdomain', 1 );
 
 
 /**
