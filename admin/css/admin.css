@@ -22,10 +22,14 @@
 #catchwebtools .updated {
 	float: right;
 }
+#catchwebtools .form-table th {
+	padding-left:  10px;
+}
 #plugin-option-header {
     background-color: #3A3D41;
-	min-height: 120px;
-	padding: 10px 20px 20px;
+    display: block;
+	padding: 15px 20px;
+	overflow: hidden;
 }
 #plugin-social {
     float: right;
@@ -51,7 +55,7 @@
     padding: 0;
 }
 #plugin-support {
-    clear: both;
+	float: right;
     text-align: right;
 }
 #plugin-support ul li {
@@ -67,6 +71,7 @@
 }
 #catchwebtools .tabNavigation {
     background-color: #000;
+    clear: both;
     margin: 0 auto 10px;
     text-align: center;
 	font: 13px Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
