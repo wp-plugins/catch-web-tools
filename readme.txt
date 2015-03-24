@@ -32,7 +32,7 @@ Catch Themes team does not provide support for the Catch Web Tools plugin on the
 = Translation =
 
 Catch Web Tools plugin is translation ready. 
-Added Translation for Brazilian Portuguese by Valdir Trombini ( Email: valdir.trombini@hotmail.com )
+Added Translation for Brazilian Portuguese by Valdir Trombini
 
 == Installation ==
 
