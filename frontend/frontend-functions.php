@@ -39,7 +39,7 @@ function catchwebtools_get_header_information(){
 	echo '<!-- This site is optimized with the Catch Web Tools v'. CATCHWEBTOOLS_VERSION .' - http://catchwebtools.com -->'. PHP_EOL ;
 	echo $webmaster. PHP_EOL ;
 	echo $opengraph. PHP_EOL ;
-	echo $seo. PHP_EOL ;
+	//echo $seo. PHP_EOL ;
 	echo $custom_css. PHP_EOL ;
 	echo '<!-- / Catch Web Tools plugin. -->'. PHP_EOL ;
 }
