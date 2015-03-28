@@ -109,4 +109,16 @@ function catchwebtools_get_title() {
 		}
 	}
 }
-add_filter( 'wp_title', 'catchwebtools_get_title', 10, 2 );
+
+/**
+ * Add SEO title to wp_title if it is enabled
+ */
+function catchwebtools_add_title() {
+	$seo_settings =  get_option( 'catchwebtools_seo' );
+	//Enable only if seo in enabled
+	if( isset( $seo_settings['status'] ) &&  $seo_settings['status'] ){
+		add_filter( 'wp_title', 'catchwebtools_get_title', 10, 2 );
+	}
+}
+add_filter( 'init', 'catchwebtools_add_title' );
+
