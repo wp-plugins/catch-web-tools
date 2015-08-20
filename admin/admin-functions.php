@@ -15,7 +15,7 @@ function catchwebtools_admin_enqueue_scripts( $hook_suffix ) {
 	wp_enqueue_script( 'catchwebtools-equal-height', CATCHWEBTOOLS_URL . 'admin/js/equal_height.js', array( 'jquery' ) );
 	
 	//CSS Styles
-	wp_enqueue_style( 'catchwebtools-genericons', CATCHWEBTOOLS_URL . 'css/genericons.css', false );
+	wp_enqueue_style( 'genericons', CATCHWEBTOOLS_URL . 'css/genericons/genericons.css', false, '3.3' );
 	wp_enqueue_style( 'catchwebtools-plugin-css', CATCHWEBTOOLS_URL . 'admin/css/admin.css', array( 'farbtastic', 'thickbox' ), '2013-10-05' );
 }
 

@@ -19,12 +19,12 @@ function catchwebtools_opengraph_display(){
 		if (is_home() || is_front_page()) {
 			foreach( $opengraph_settings as $property=>$content )
 				if( $property != 'og:default_image' && $content != '' && $property != 'custom')
-					$output	.= '<meta property="' . $property . '" content="' . $content . '"/>'. PHP_EOL ;	
+					$output	.= '<meta property="' . esc_attr( $property ) . '" content="' . esc_attr( $content ) . '"/>'. PHP_EOL ;	
 				else if( $property == 'custom' && $content != '' )
 					$output	.= $content . PHP_EOL ;	
 		}
 		elseif (is_category() || is_archive()) {
-			$output	.= '<meta property="og:title" content="'.single_term_title("", false).'"/>';
+			$output	.= '<meta property="og:title" content="'. single_term_title( "", false ) .'"/>';
 		}			
 		elseif ((is_single() ||  is_page()) && !is_page('blog')) {
 			//Title
@@ -57,11 +57,11 @@ function catchwebtools_opengraph_display(){
 			$final_catchwebtools_opengraph_custom	=	( !empty( $get_catchwebtools_opengraph_custom ) ) ? $get_catchwebtools_opengraph_custom :  '' ;
 			
 			$output	.= '
-				<meta property="og:title" content="'.$final_catchwebtools_opengraph_title.'"/>
-				<meta property="og:url" content="'.$final_catchwebtools_opengraph_url.'"/>
-				<meta property="og:image" content="'.$final_catchwebtools_opengraph_image.'" />
-				<meta property="og:description" content="'.$final_catchwebtools_opengraph_description.'" />
-				<meta property="og:type" content="'.$final_catchwebtools_opengraph_type.'" />
+				<meta property="og:title" content="'. esc_attr( $final_catchwebtools_opengraph_title ).'"/>
+				<meta property="og:url" content="'. esc_attr( $final_catchwebtools_opengraph_url ).'"/>
+				<meta property="og:image" content="'. esc_attr( $final_catchwebtools_opengraph_image ).'" />
+				<meta property="og:description" content="'. esc_attr( $final_catchwebtools_opengraph_description ).'" />
+				<meta property="og:type" content="'. esc_attr( $final_catchwebtools_opengraph_type ).'" />
 				';
 			
 			$output	.= $final_catchwebtools_opengraph_custom;
@@ -78,14 +78,9 @@ function catchwebtools_opengraph_display(){
  * @return [string] [html attribute for open graph]
  */
 function catchwebtools_add_opengraph_namespace() {
-	return ' prefix="og: http://ogp.me/ns#"' ;
+	$opengraph_settings	=	get_option( 'catchwebtools_opengraph' );
+	if( isset( $opengraph_settings['status'] ) &&  $opengraph_settings['status'] ){	
+		echo ' prefix="og: http://ogp.me/ns#"' ;
+	}
 }
-
-/**
- * add_filter only if opengraph in enabled
- */
-$opengraph_settings	=	get_option( 'catchwebtools_opengraph' );
-
-if( isset( $opengraph_settings['status'] ) &&  $opengraph_settings['status'] ){	
-	add_filter( 'language_attributes', 'catchwebtools_add_opengraph_namespace' );
-}
+add_filter( 'language_attributes', 'catchwebtools_add_opengraph_namespace' );

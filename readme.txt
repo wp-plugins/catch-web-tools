@@ -1,12 +1,12 @@
 === Catch Web Tools ===
-Contributors: catchthemes, sakinshrestha
+Contributors: catchthemes, sakinshrestha, pratikshrestha
 Donate link: http://catchthemes.com/wp-plugins/catch-web-tools/
 License: GNU General Public License, version 3 (GPLv3)
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 Tags: catch-ids, simple, admin, wp-admin, show, ids, post, page, category, media, links, tag, user, widget, seo, search engine optimization, google, alexa, bing, meta keywords, meta description, social icons, github, dribbble, twitter, facebook, wordpress, googleplus, linkedin, pinterest, flickr, vimeo, youtube, tumblr, instagram, codepen, polldaddy, path, css, open graphs, plugin, posts, sidebar, image, images
-Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 1.2
+Requires at least: 4.1
+Tested up to: 4.3
+Stable tag: 1.3
 
 Improve your WordPress site with powerful web tools by catchthemes.com
 
@@ -137,6 +137,14 @@ Catch Web Tools: SEO Settings
 
 
 == Changelog ==
+
+= 1.3 =
+* Bug Fixed: Escaped outputs for social icons
+* Bug Fixed: Escaped outputs for open graph tools
+* Bug Fixed: Escaped outputs for webmasters tools
+* Bug Fixed: Skype social icon esc_attr instead of esc_url
+* Updated Genericons
+* Check version compatibility WordPress 4.3
 
 = 1.2 =
 * Added Serbo-Croatian translation sr_RS.po and sr_RS.mo

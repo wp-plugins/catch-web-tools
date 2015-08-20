@@ -24,28 +24,36 @@ function catchwebtools_get_social_icons(){
 						.genericon {';
 				if ( isset( $social_settings['social_icon_size'] ) && $social_settings['social_icon_size'] != '' ) {
 				
-					$output .= 'font-size	:	'. $social_settings['social_icon_size'] .'px;
-								width 		: 	'. $social_settings['social_icon_size'] .'px;
-								height 		:	'. $social_settings['social_icon_size'] .'px;';
+					$output .= 'font-size	:	'. esc_attr( $social_settings['social_icon_size'] ) .'px;
+								width 		: 	'. esc_attr( $social_settings['social_icon_size'] ).'px;
+								height 		:	'. esc_attr( $social_settings['social_icon_size'] ).'px;';
 				}
 				
 				if ( isset( $social_settings['social_icon_color'] ) && $social_settings['social_icon_color'] != '' ) {
 				
-					$output .= 'color	:	'. $social_settings['social_icon_color'] .';';
+					$output .= 'color	:	'. esc_attr( $social_settings['social_icon_color'] ) .';';
 				}
 				
 			$output .=  'vertical-align: middle;
 						}';
 			$output .=  '</style>
 			<div class="catchwebtools-social"><ul>';
+
+			//print_r($social_settings);
 			
 			unset( $social_settings['social_icon_size'] );
 			unset( $social_settings['social_icon_color'] );
-			foreach ( $social_settings as $key => $value )
-			if( $value !='' )
-				//$output .= '<li><a class="genericon_parent" target="_blank" title="'. $key .'" href="'. $value .'"><span class="genericon genericon-'. strtolower( $key ) .'"></span></a></li>';
-				$output .= '<li><a class="genericon genericon-'. strtolower( $key ) .'" target="_blank" title="'. $key .'" href="'. $value .'"><span>'. $key .'</span></a></li>';
-			
+
+			foreach ( $social_settings as $key => $value ) {
+				if( '' != $value ){
+					if ( 'Skype' == $key  ) {
+						$output .= '<li><a class="genericon genericon-'. esc_attr( strtolower( $key ) ) .'" target="_blank" title="'. esc_attr( $key ) .'" href="'. esc_attr( $value ) .'"><span>'. esc_attr( $key ) .'</span></a></li>'; 
+					}
+					else {
+						$output .= '<li><a class="genericon genericon-'. esc_attr( strtolower( $key ) ) .'" target="_blank" title="'. esc_attr( $key ) .'" href="'. esc_url( $value ) .'"><span>'. esc_attr( $key ) .'</span></a></li>';
+					}
+				}
+			}			
 			$output .=  '</ul></div><!-- .catchwebtools-social -->';
 		
 		}

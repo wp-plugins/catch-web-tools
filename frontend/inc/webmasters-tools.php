@@ -18,13 +18,13 @@ function catchwebtools_webmaster_header_display(){
 			$output .= $webmaster_settings['header'] . PHP_EOL ;
 		
 		if( isset( $webmaster_settings['google-site-verification'] ) && $webmaster_settings['google-site-verification'] != '' ) 
-			$output .= '<meta name="google-site-verification" content="'. $webmaster_settings['google-site-verification'] .'" />' . PHP_EOL ;
+			$output .= '<meta name="google-site-verification" content="'. esc_attr( $webmaster_settings['google-site-verification'] ) .'" />' . PHP_EOL ;
 		
 		if( isset( $webmaster_settings['msvalidate.01'] ) && $webmaster_settings['msvalidate.01'] != '' ) 
-			$output .= '<meta name="msvalidate.01" content="'. $webmaster_settings['msvalidate.01'] .'" />' . PHP_EOL ;
+			$output .= '<meta name="msvalidate.01" content="'. esc_attr( $webmaster_settings['msvalidate.01'] ) .'" />' . PHP_EOL ;
 		
 		if( isset( $webmaster_settings['alexaVerifyID'] ) && $webmaster_settings['alexaVerifyID'] != '' ) 
-			$output .= '<meta name="alexaVerifyID" content="'.$webmaster_settings['alexaVerifyID']  .'" />' . PHP_EOL ;
+			$output .= '<meta name="alexaVerifyID" content="'. esc_attr( $webmaster_settings['alexaVerifyID'] ) .'" />' . PHP_EOL ;
 		
 	}	
 	return $output;
