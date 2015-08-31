@@ -12,7 +12,7 @@
         <form method="post" action="options.php">
             <?php settings_fields( 'webmaster-tools-group' ); ?>
             
-            <?php $settings = get_catchwebtools_options( 'catchwebtools_webmaster' ); ?>
+            <?php $settings = catchwebtools_get_options( 'catchwebtools_webmaster' ); ?>
 
             <div class="option-container">
                 <h3 class="option-toggle option-active"><a href="#"><?php _e( 'Enable Webmaster Module', 'catchwebtools' ); ?></a></h3>
@@ -27,6 +27,44 @@
                                     $text	=	( ! empty ( $settings['status'] ) && $settings['status'] ) ? 'checked' : '';
                                     echo '<input type="checkbox" ' .$text. ' name="catchwebtools_webmaster[status]" value="1"/>&nbsp;&nbsp;'. __( 'Check to Enable', 'catchwebtools' );
                                     ?>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <?php submit_button('Save Changes'); ?>   
+                </div>
+
+                <h3 class="option-toggle"><a href="#"><?php _e( 'Feed Redirect / Custom Feeds', 'catchwebtools' ); ?></a></h3>
+                
+                <div class="option-content inside">
+                    <table class="form-table">
+                        <tbody>
+                            <tr>                            
+                                <th scope="row"><?php _e( 'Enter your custom feed URL:', 'catchwebtools' ); ?></th>
+                                <td>
+                                    <?php
+                                    $text   =   ( ! empty ( $settings['feed_uri'] ) ) ? $settings['feed_uri'] : '';
+                                    ?>
+                                    
+                                    <input type="text" name="catchwebtools_webmaster[feed_uri]" id="catchwebtools_webmaster[feed_uri]" value="<?php echo esc_attr( $text ); ?>"  size="80"/>
+
+                                </td>
+                            </tr>
+
+                            <tr>                            
+                                <th scope="row"><?php _e( 'Enter your custom comments feed URL:', 'catchwebtools' ); ?></th>
+                                <td>
+                                    <?php
+                                    $text   =   ( ! empty ( $settings['comments_feed_uri'] ) ) ? $settings['comments_feed_uri'] : '';
+                                    ?>
+                                    
+                                    <input type="text" name="catchwebtools_webmaster[comments_feed_uri]" id="catchwebtools_webmaster[comments_feed_uri]" value="<?php echo esc_attr( $text ); ?>"  size="80" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <p class="description"><?php printf( __( 'If your custom feed(s) are not handled by Feedblitz or Feedburner, do not use the redirect options.', 'catchwebtools' ) ); ?></p>
                                 </td>
                             </tr>
                         </tbody>

@@ -10,7 +10,7 @@
     <div id="social">
         <form method="post" action="options.php">
             <?php settings_fields( 'social-icons-group' ); ?>
-            <?php $settings = get_catchwebtools_options( 'catchwebtools_social' ); ?>
+            <?php $settings = catchwebtools_get_options( 'catchwebtools_social' ); ?>
             <div class="option-container">
                 <h3 class="option-toggle option-active"><a href="#"><?php _e( 'Enable Social Icons Module', 'catchwebtools' ); ?></a></h3>
                 <div class="option-content inside open">

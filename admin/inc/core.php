@@ -173,19 +173,25 @@ class catchwebtools {
 	function catchwebtools_webmaster_sanitize_callback( $input ){
 		
 		if( !empty( $input['header'] ) )
-			$input['header'] = $input['header'];
+			$input['header'] = wp_kses_stripslashes( $input['header'] );
 		
 		if( !empty( $input['footer'] ) )
 			$input['footer'] = wp_kses_stripslashes( $input['footer'] );
 		
 		if( !empty( $input['google-site-verification'] ) )
-			$input['google-site-verification']= sanitize_text_field( $input['google-site-verification'] );
+			$input['google-site-verification']	= sanitize_text_field( $input['google-site-verification'] );
 		
 		if( !empty( $input['msvalidate.01'] ) )
 			$input['msvalidate.01'] 			= sanitize_text_field( $input['msvalidate.01'] );
 		
 		if( !empty( $input['alexaVerifyID'] ) )
-			$input['alexaVerifyID']			= sanitize_text_field( $input['alexaVerifyID'] );
+			$input['alexaVerifyID']				= sanitize_text_field( $input['alexaVerifyID'] );
+
+		if( !empty( $input['feed_uri'] ) )
+			$input['feed_uri']					= sanitize_text_field( $input['feed_uri'] );
+
+		if( !empty( $input['comments_feed_uri'] ) )
+			$input['comments_feed_uri']			= sanitize_text_field( $input['comments_feed_uri'] );
 		
 		delete_transient( 'catchwebtools_webmaster_transient' );	
 		

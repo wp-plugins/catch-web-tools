@@ -4,9 +4,9 @@
  * SEO Metabox
  */
 
-$seo_settings = get_catchwebtools_options( 'catchwebtools_seo' );//Get seo settings
+$seo_settings = catchwebtools_get_options( 'catchwebtools_seo' );//Get seo settings
 
-$opengraph_settings	=	get_catchwebtools_options( 'catchwebtools_opengraph' );//get opengraph settings
+$opengraph_settings	=	catchwebtools_get_options( 'catchwebtools_opengraph' );//get opengraph settings
 
 /**
  * Check if opengtaph in enabled and activate metabox

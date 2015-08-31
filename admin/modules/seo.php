@@ -10,7 +10,7 @@
     <div id="seo">
         <form method="post" action="options.php">
             <?php settings_fields( 'seo-settings-group' ); ?>
-            <?php $settings	=	get_catchwebtools_options( 'catchwebtools_seo' ); ?>
+            <?php $settings	=	catchwebtools_get_options( 'catchwebtools_seo' ); ?>
             <div class="option-container">
                 <h3 class="option-toggle option-active"><a href="#"><?php _e( 'Enable SEO Module', 'catchwebtools' ); ?></a></h3>
                 <div class="option-content inside open">

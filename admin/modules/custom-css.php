@@ -10,7 +10,7 @@
     <div id="customcss">
             <form method="post" action="options.php">
             	<?php settings_fields( 'custom-css-settings-group' ); ?>
-				<?php $settings	=	get_catchwebtools_options( 'catchwebtools_custom_css' ); ?>
+				<?php $settings	=	catchwebtools_get_options( 'catchwebtools_custom_css' ); ?>
 				<div class="option-container">
                     <h3 class="option-toggle option-active"><a href="#"><?php _e( 'Custom Css Settings', 'catchwebtools' ); ?></a></h3>
                     <div class="option-content inside open">

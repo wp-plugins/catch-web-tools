@@ -10,7 +10,7 @@
  */
 
 function catchwebtools_seo_display(){
-	$seo_settings	=	get_catchwebtools_options( 'catchwebtools_seo' );
+	$seo_settings	=	catchwebtools_get_options( 'catchwebtools_seo' );
 	
 	$output	=	'';
 	

@@ -6,7 +6,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 Tags: catch-ids, simple, admin, wp-admin, show, ids, post, page, category, media, links, tag, user, widget, seo, search engine optimization, google, alexa, bing, meta keywords, meta description, social icons, github, dribbble, twitter, facebook, wordpress, googleplus, linkedin, pinterest, flickr, vimeo, youtube, tumblr, instagram, codepen, polldaddy, path, css, open graphs, plugin, posts, sidebar, image, images
 Requires at least: 4.1
 Tested up to: 4.3
-Stable tag: 1.3
+Stable tag: 1.4
 
 Improve your WordPress site with powerful web tools by catchthemes.com
 
@@ -27,7 +27,7 @@ Catch Web Tools use clean coding that follows WordPress's standard guideline. Wh
 
 = Premium Support =
 
-Catch Themes team does not provide support for the Catch Web Tools plugin on the WordPress.org forums. Support is provided at [Catch Web Tools Support Forum](http://catchthemes.com/forum/catch-web-tools/) 
+Catch Themes team does not provide support for the Catch Web Tools plugin on the WordPress.org forums. Support is provided at [Catch Web Tools Support Forum](http://catchthemes.com/support-forum/forum/catch-web-tools/) 
 
 = Translation =
 
@@ -48,6 +48,9 @@ You'll then see Catch Web Tools dashboard from which you can enable or disable t
 Webmaster Tools is a very popular solution for your website and it is highly recommended by webmasters. It will help you with the Search Engine Ranking Optimization of your website.
 
 Click on the Activate button in the Catch Web Tools Dashboard or Check the "Enable Webmaster module" to enable webmaster tools.
+
+Feed Redirect/Custom Feeds
+	* This section allows you to add in custom feed URL which will redirect default WordPress Feed. If your custom feed(s) are not handled by Feedblitz or Feedburner, do not use the redirect options.
 
 Header and Footer Scripts Section
 	* This section has facilities provided so that any script from Google, Facebook, Google Analytics etc. can be placed, which will load on Header or Footer.
@@ -137,6 +140,10 @@ Catch Web Tools: SEO Settings
 
 
 == Changelog ==
+
+= 1.4 =
+* Added: Feed redirect / custom feed options under webmaster tools
+* Changed: Suppor URL
 
 = 1.3 =
 * Bug Fixed: Escaped outputs for social icons

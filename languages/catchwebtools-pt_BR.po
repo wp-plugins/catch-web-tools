@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Web Tools\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2015-03-28 21:40+0545\n"
-"PO-Revision-Date: 2015-03-28 21:40+0545\n"
+"POT-Creation-Date: 2015-08-31 11:44+0545\n"
+"PO-Revision-Date: 2015-08-31 11:44+0545\n"
 "Last-Translator: Sakin Shrestha <info@catchthemes.com>\n"
 "Language-Team: Valdir Trombini <valdirtrombini@hotmail.com>\n"
 "Language: pt_BR\n"
@@ -37,7 +37,7 @@ msgstr "Webmasters"
 msgid "Custom CSS"
 msgstr "Personalizar o CSS"
 
-#: ../admin/inc/core.php:37 ../admin/inc/social-icons.php:107
+#: ../admin/inc/core.php:37 ../admin/inc/social-icons.php:115
 #: ../admin/modules/dashboard.php:88 ../admin/modules/navigation.php:21
 msgid "Social Icons"
 msgstr "Ícones Sociais"
@@ -145,13 +145,13 @@ msgstr "Meta palavras-chave"
 msgid "Meta keywords used on the archive page for this term."
 msgstr "A meta palavras-chave para este termo é usada na página de arquivo."
 
-#: ../admin/inc/social-icons.php:70
+#: ../admin/inc/social-icons.php:78
 msgid "Use this widget to add Catch Web Tools Social Icons as a widget. "
 msgstr ""
 "Use este widget para adicionar as ferramentas do Catch Web Tools, colocando "
 "seus ícones sociais preferidos como um widget onde achar necessário."
 
-#: ../admin/inc/social-icons.php:111
+#: ../admin/inc/social-icons.php:119
 msgid "Title (optional):"
 msgstr "Título (opcional):"
 
@@ -669,19 +669,37 @@ msgid "Enable Webmaster Module"
 msgstr "Ativar o módulo Webmaster"
 
 #: ../admin/modules/webmaster.php:38
+msgid "Feed Redirect / Custom Feeds"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:44
+msgid "Enter your custom feed URL:"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:56
+msgid "Enter your custom comments feed URL:"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:67
+msgid ""
+"If your custom feed(s) are not handled by Feedblitz or Feedburner, do not "
+"use the redirect options."
+msgstr ""
+
+#: ../admin/modules/webmaster.php:76
 msgid "Header and Footer Scripts"
 msgstr ""
 "Coloque aqui os Scripts que vão no código-fonte do Cabeçalho e/ou do Rodapé"
 
-#: ../admin/modules/webmaster.php:45 ../admin/modules/webmaster.php:58
+#: ../admin/modules/webmaster.php:83 ../admin/modules/webmaster.php:96
 msgid "Enter scripts or code you would like output to"
 msgstr "Digite scripts ou código como você gostaria que eles saiam"
 
-#: ../admin/modules/webmaster.php:51 ../admin/modules/webmaster.php:64
+#: ../admin/modules/webmaster.php:89 ../admin/modules/webmaster.php:102
 msgid "The"
 msgstr "The"
 
-#: ../admin/modules/webmaster.php:51
+#: ../admin/modules/webmaster.php:89
 msgid ""
 "hook executes immediately before the closing </head> tag in the document "
 "source."
@@ -689,7 +707,7 @@ msgstr ""
 "Esse gancho é executado imediatamente antes da tag de fechamento </head> na "
 "origem do documento (codigo-fonte)."
 
-#: ../admin/modules/webmaster.php:64
+#: ../admin/modules/webmaster.php:102
 msgid ""
 "hook executes immediately before the closing </body> tag in the document "
 "source."
@@ -697,11 +715,11 @@ msgstr ""
 "Esse gancho é executado imediatamente antes da tag de fechamento </body> na "
 "origem do documento (codigo-fonte)."
 
-#: ../admin/modules/webmaster.php:73
+#: ../admin/modules/webmaster.php:111
 msgid "Site Verification"
 msgstr "Verificação do site"
 
-#: ../admin/modules/webmaster.php:76
+#: ../admin/modules/webmaster.php:114
 msgid ""
 "You can use the boxes below to verify with different Webmaster Tools. If "
 "your site is already verified, you can skip this section. Enter the verify "
@@ -712,27 +730,27 @@ msgstr ""
 "está válido, você pode pular esta seção. Se não foi ainda, digite os valores "
 "de meta para verificar"
 
-#: ../admin/modules/webmaster.php:82
+#: ../admin/modules/webmaster.php:120
 msgid "Google Webmaster Tools"
 msgstr "Ferramentas do Google para Webmasters"
 
-#: ../admin/modules/webmaster.php:87
+#: ../admin/modules/webmaster.php:125
 msgid "Enter your Google ID number only"
 msgstr "Digite somente o número da ID (identificação única) do Google"
 
-#: ../admin/modules/webmaster.php:94
+#: ../admin/modules/webmaster.php:132
 msgid "Bing Webmaster Tools"
 msgstr "Ferramentas do Bing para Webmasters"
 
-#: ../admin/modules/webmaster.php:99
+#: ../admin/modules/webmaster.php:137
 msgid "Enter your Bing ID number only"
 msgstr "Digite somente o número da ID (identificação única) do Bing"
 
-#: ../admin/modules/webmaster.php:106
+#: ../admin/modules/webmaster.php:144
 msgid "Alexa Verification ID"
 msgstr "Alexa verificação da identidade única (ID)"
 
-#: ../admin/modules/webmaster.php:111
+#: ../admin/modules/webmaster.php:149
 msgid "Enter your Alexa ID number only"
 msgstr "Digite somente o número da ID (identificação única) do Alexa"
 

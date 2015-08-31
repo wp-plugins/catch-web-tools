@@ -10,7 +10,7 @@
     <div id="opengraph">
         <form method="post" action="options.php">
             <?php settings_fields( 'opengraph-settings-group' ); ?>
-            <?php $settings	=	get_catchwebtools_options( 'catchwebtools_opengraph' ); ?>
+            <?php $settings	=	catchwebtools_get_options( 'catchwebtools_opengraph' ); ?>
 			<div class="option-container">
                 <h3 class="option-toggle option-active"><a href="#"><?php _e( 'Enable Open Graph Module', 'catchwebtools' ); ?></a></h3>
                 <div class="option-content inside open">

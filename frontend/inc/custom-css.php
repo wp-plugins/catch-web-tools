@@ -9,7 +9,7 @@
  * @return [string] [custom css information]
  */
 function catchwebtools_custom_css_display(){
-	$customcss	=	get_catchwebtools_options( 'catchwebtools_custom_css' );
+	$customcss	=	catchwebtools_get_options( 'catchwebtools_custom_css' );
 	
 	$output		=	'';
 		if( !empty ( $customcss ) ){

@@ -9,7 +9,7 @@
  * @return [string] [opengraph information]
  */
 function catchwebtools_opengraph_display(){
-	$opengraph_settings	=	get_catchwebtools_options( 'catchwebtools_opengraph' );
+	$opengraph_settings	=	catchwebtools_get_options( 'catchwebtools_opengraph' );
 	
 	$output		=	'';
 	if( isset( $opengraph_settings['status'] ) &&  $opengraph_settings['status'] ){		

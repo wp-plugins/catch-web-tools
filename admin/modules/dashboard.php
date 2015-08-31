@@ -26,7 +26,7 @@
                     	<?php 
 							settings_fields( 'webmaster-tools-group' );
                         	
-							$settings	=	get_catchwebtools_options( 'catchwebtools_webmaster' );
+							$settings	=	catchwebtools_get_options( 'catchwebtools_webmaster' );
 							                        
 							if( ! empty ( $settings['status'] ) && $settings['status'] ) {
 								echo '<input type="hidden" value="0"  name="catchwebtools_webmaster[status]"/>';
@@ -67,7 +67,7 @@
                     	<?php 
 							settings_fields( 'catchids-settings-group' );
                         	
-							$settings	=	get_catchwebtools_options( 'catchwebtools_catchids' );
+							$settings	=	catchwebtools_get_options( 'catchwebtools_catchids' );
 							                        
 							if( ! empty ( $settings['status'] ) && $settings['status'] ) {
 								echo '<input type="hidden" value="0"  name="catchwebtools_catchids[status]"/>';
@@ -97,7 +97,7 @@
                     	<?php 
 							settings_fields( 'social-icons-group' );
                         	
-							$settings	=	get_catchwebtools_options( 'catchwebtools_social' );
+							$settings	=	catchwebtools_get_options( 'catchwebtools_social' );
 							                        
 							if( ! empty ( $settings['status'] ) && $settings['status'] ) {
 								echo '<input type="hidden" value="0"  name="catchwebtools_social[status]"/>';
@@ -125,7 +125,7 @@
                     	<?php 
 							settings_fields( 'opengraph-settings-group' );
                         	
-							$settings	=	get_catchwebtools_options( 'catchwebtools_opengraph' );
+							$settings	=	catchwebtools_get_options( 'catchwebtools_opengraph' );
 							                        
 							if( ! empty ( $settings['status'] ) && $settings['status'] ) {
 								echo '<input type="hidden" value="0"  name="catchwebtools_opengraph[status]"/>';
@@ -154,7 +154,7 @@
                     	<?php 
 							settings_fields( 'seo-settings-group' );
                         	
-							$settings	=	get_catchwebtools_options( 'catchwebtools_seo' );
+							$settings	=	catchwebtools_get_options( 'catchwebtools_seo' );
 							                        
 							if( ! empty ( $settings['status'] ) && $settings['status'] ) {
 								echo '<input type="hidden" value="0"  name="catchwebtools_seo[status]"/>';

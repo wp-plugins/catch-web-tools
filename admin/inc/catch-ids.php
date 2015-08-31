@@ -4,7 +4,7 @@
  * Fumction called when Catch IDs is enabled
  */
  
-$catchwebtools_catchids_settings	=	get_catchwebtools_options( 'catchwebtools_catchids' );
+$catchwebtools_catchids_settings	=	catchwebtools_get_options( 'catchwebtools_catchids' );
 
 if( isset( $catchwebtools_catchids_settings['status'] ) && $catchwebtools_catchids_settings['status'] )//Check if catchIDs in enabled and activate it
 	add_action('admin_init', 'catchwebtools_catchids_add');
