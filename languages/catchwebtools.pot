@@ -1,0 +1,655 @@
+# Copyright (C) 2013 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Catch Web Tools\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-08-31 11:44+0545\n"
+"PO-Revision-Date: 2015-08-31 11:44+0545\n"
+"Last-Translator: Sakin Shrestha <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_attr_e;esc_attr__;_nx\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/inc/core.php:28 ../admin/inc/core.php:31
+#: ../admin/modules/navigation.php:9
+msgid "Dashboard"
+msgstr ""
+
+#: ../admin/inc/core.php:28 ../admin/modules/dashboard.php:12
+msgid "Catch Web Tools"
+msgstr ""
+
+#: ../admin/inc/core.php:33
+msgid "Webmasters"
+msgstr ""
+
+#: ../admin/inc/core.php:35 ../admin/modules/dashboard.php:49
+#: ../admin/modules/navigation.php:17
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/inc/core.php:37 ../admin/inc/social-icons.php:115
+#: ../admin/modules/dashboard.php:88 ../admin/modules/navigation.php:21
+msgid "Social Icons"
+msgstr ""
+
+#: ../admin/inc/core.php:39 ../admin/inc/metabox.php:98
+#: ../admin/modules/dashboard.php:120 ../admin/modules/navigation.php:25
+msgid "Open Graph"
+msgstr ""
+
+#: ../admin/inc/core.php:41 ../admin/modules/navigation.php:29
+msgid "SEO"
+msgstr ""
+
+#: ../admin/inc/core.php:50 ../admin/inc/core.php:63 ../admin/inc/core.php:76
+#: ../admin/inc/core.php:89 ../admin/inc/core.php:102
+#: ../admin/inc/core.php:115
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../admin/inc/metabox.php:101
+msgid "Seo Settings"
+msgstr ""
+
+#: ../admin/inc/metabox.php:106 ../admin/inc/metabox.php:129
+#: ../admin/modules/opengraph.php:62
+msgid "Title"
+msgstr ""
+
+#: ../admin/inc/metabox.php:107 ../admin/modules/opengraph.php:95
+msgid "URL"
+msgstr ""
+
+#: ../admin/inc/metabox.php:108
+msgid "Image URL"
+msgstr ""
+
+#: ../admin/inc/metabox.php:109 ../admin/modules/opengraph.php:107
+msgid "Description"
+msgstr ""
+
+#: ../admin/inc/metabox.php:110 ../admin/modules/opengraph.php:74
+msgid "Type"
+msgstr ""
+
+#: ../admin/inc/metabox.php:124
+msgid "Custom tags"
+msgstr ""
+
+#: ../admin/inc/metabox.php:130 ../admin/modules/seo.php:45
+msgid "Title display in search engines is limited to 70 characters. "
+msgstr ""
+
+#: ../admin/inc/metabox.php:130 ../admin/inc/metabox.php:133
+#: ../admin/modules/seo.php:45 ../admin/modules/seo.php:56
+msgid "character(s) left."
+msgstr ""
+
+#: ../admin/inc/metabox.php:132 ../admin/modules/seo.php:51
+msgid "Meta Description"
+msgstr ""
+
+#: ../admin/inc/metabox.php:133 ../admin/modules/seo.php:56
+msgid "The meta description is limited to 156 characters. "
+msgstr ""
+
+#: ../admin/inc/metabox.php:136 ../admin/modules/seo.php:62
+msgid "Focus Keywords"
+msgstr ""
+
+#: ../admin/inc/metabox.php:248 ../admin/inc/metabox.php:283
+msgid "Catch Web Tools SEO Settings"
+msgstr ""
+
+#: ../admin/inc/metabox.php:251 ../admin/inc/metabox.php:287
+msgid "SEO title"
+msgstr ""
+
+#: ../admin/inc/metabox.php:253 ../admin/inc/metabox.php:289
+msgid "The SEO title is used on the archive page for this term."
+msgstr ""
+
+#: ../admin/inc/metabox.php:257 ../admin/inc/metabox.php:295
+msgid "SEO Description"
+msgstr ""
+
+#: ../admin/inc/metabox.php:259 ../admin/inc/metabox.php:297
+msgid ""
+"The SEO description is used for the meta description on the archive page for "
+"this term."
+msgstr ""
+
+#: ../admin/inc/metabox.php:263 ../admin/inc/metabox.php:303
+msgid "Meta Keywords"
+msgstr ""
+
+#: ../admin/inc/metabox.php:265 ../admin/inc/metabox.php:305
+msgid "Meta keywords used on the archive page for this term."
+msgstr ""
+
+#: ../admin/inc/social-icons.php:78
+msgid "Use this widget to add Catch Web Tools Social Icons as a widget. "
+msgstr ""
+
+#: ../admin/inc/social-icons.php:119
+msgid "Title (optional):"
+msgstr ""
+
+#: ../admin/modules/custom-css.php:15
+msgid "Custom Css Settings"
+msgstr ""
+
+#: ../admin/modules/custom-css.php:20
+msgid "Enter Custom Css"
+msgstr ""
+
+#: ../admin/modules/custom-css.php:25
+msgid ""
+"You can just add your Custom CSS and save, it will show up in the frontend "
+"head section. Leave it blank if it is not needed."
+msgstr ""
+
+#: ../admin/modules/custom-css.php:30
+msgid "CSS Tutorial from W3Schools."
+msgstr ""
+
+#: ../admin/modules/custom-css.php:32
+msgid "http://www.w3schools.com/css/default.asp"
+msgstr ""
+
+#: ../admin/modules/custom-css.php:32
+msgid "CSS Tutorial"
+msgstr ""
+
+#: ../admin/modules/custom-css.php:32
+msgid "Click Here to Read"
+msgstr ""
+
+#: ../admin/modules/dashboard.php:14
+msgid ""
+"Catch Web Tools is a simple and lightweight WordPress plugin to help you "
+"manage your WordPress site. Power up your WordPress site with powerful "
+"features that were till now only available to Catch Themes users. We "
+"currently offer Webmaster Tools, Open Graph, Custom CSS, Social Icons, Catch "
+"IDs and basic SEO Optimization."
+msgstr ""
+
+#: ../admin/modules/dashboard.php:20 ../admin/modules/navigation.php:13
+msgid "Webmaster Tools"
+msgstr ""
+
+#: ../admin/modules/dashboard.php:22
+msgid ""
+"Webmaster Tools gives you an option to add in the Site Verfication Code and "
+"Header and Footer Script required to manage your site."
+msgstr ""
+
+#: ../admin/modules/dashboard.php:34 ../admin/modules/dashboard.php:75
+#: ../admin/modules/dashboard.php:105 ../admin/modules/dashboard.php:133
+#: ../admin/modules/dashboard.php:162
+msgid "Deactivate"
+msgstr ""
+
+#: ../admin/modules/dashboard.php:39 ../admin/modules/dashboard.php:80
+#: ../admin/modules/dashboard.php:110 ../admin/modules/dashboard.php:138
+#: ../admin/modules/dashboard.php:167
+msgid "Activate"
+msgstr ""
+
+#: ../admin/modules/dashboard.php:43 ../admin/modules/dashboard.php:54
+#: ../admin/modules/dashboard.php:114 ../admin/modules/dashboard.php:142
+#: ../admin/modules/dashboard.php:171
+msgid "Configure"
+msgstr ""
+
+#: ../admin/modules/dashboard.php:51
+msgid ""
+"Custom CSS gives you an option to add in your CSS to your WordPress site "
+"without building Child Theme. You can just add your Custom CSS and save, it "
+"will show up in the frontend head section. Leave it blank if it is not "
+"needed."
+msgstr ""
+
+#: ../admin/modules/dashboard.php:59
+msgid "Catch IDs"
+msgstr ""
+
+#: ../admin/modules/dashboard.php:62
+msgid ""
+"Catch IDs will show Post ID, Page ID, Media ID, Links ID, Category ID, Tag "
+"ID and UserID in the respective admin section tables."
+msgstr ""
+
+#: ../admin/modules/dashboard.php:90
+msgid "Social Icons gives you an option to add in your Social Profiles."
+msgstr ""
+
+#: ../admin/modules/dashboard.php:93
+msgid ""
+"You can add Social Icons by adding in Widgets in your Sidebar or by adding "
+"in Shortcode in your Page/Post Content or by adding the function in your "
+"template files."
+msgstr ""
+
+#: ../admin/modules/dashboard.php:121
+msgid ""
+"The Open Graph protocol enables your site to become a rich object in a "
+"social graph. For instance, this is used on Facebook to allow any web page "
+"to have the same functionality as any other object on Facebook."
+msgstr ""
+
+#: ../admin/modules/dashboard.php:148
+msgid "SEO ( BETA Version )"
+msgstr ""
+
+#: ../admin/modules/dashboard.php:150
+msgid ""
+"SEO is in beta version. SEO can be used to add SEO meta tags to Homepage, "
+"specific Pages or Posts and Categories page. This section adds SEO meta data "
+"to site's section."
+msgstr ""
+
+#: ../admin/modules/header.php:14
+msgid "http://facebook.com/catchthemes"
+msgstr ""
+
+#: ../admin/modules/header.php:16
+msgid "https://twitter.com/catchthemes"
+msgstr ""
+
+#: ../admin/modules/header.php:22
+msgid "Catch Web Tools By"
+msgstr ""
+
+#: ../admin/modules/header.php:24
+msgid "http://catchthemes.com/"
+msgstr ""
+
+#: ../admin/modules/header.php:24 ../admin/modules/header.php:25
+msgid "Catch Themes"
+msgstr ""
+
+#: ../admin/modules/header.php:32
+msgid "http://catchthemes.com/forum/catch-web-tools/"
+msgstr ""
+
+#: ../admin/modules/header.php:32
+msgid "Support Forum"
+msgstr ""
+
+#: ../admin/modules/header.php:33
+msgid "http://catchthemes.com/wp-plugins/catch-web-tools/"
+msgstr ""
+
+#: ../admin/modules/header.php:33
+msgid "Plugin Details"
+msgstr ""
+
+#: ../admin/modules/header.php:34
+msgid "https://www.facebook.com/catchwebtools/"
+msgstr ""
+
+#: ../admin/modules/header.php:34
+msgid "Like Catch Themes on Facebook"
+msgstr ""
+
+#: ../admin/modules/header.php:34 ../admin/modules/social-icons.php:109
+msgid "Facebook"
+msgstr ""
+
+#: ../admin/modules/header.php:35
+msgid "https://twitter.com/catchwebtools/"
+msgstr ""
+
+#: ../admin/modules/header.php:35
+msgid "Follow Catch Themes on Twitter"
+msgstr ""
+
+#: ../admin/modules/header.php:35 ../admin/modules/social-icons.php:119
+msgid "Twitter"
+msgstr ""
+
+#: ../admin/modules/header.php:36
+msgid "http://wordpress.org/support/view/plugin-reviews/catch-web-tools"
+msgstr ""
+
+#: ../admin/modules/header.php:36
+msgid "Rate us 5 Star on WordPress"
+msgstr ""
+
+#: ../admin/modules/header.php:36
+msgid "5 Star Rating"
+msgstr ""
+
+#: ../admin/modules/header.php:44
+msgid "Plugin Options Saved."
+msgstr ""
+
+#: ../admin/modules/opengraph.php:15 ../admin/modules/opengraph.php:20
+msgid "Enable Open Graph Module"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:24 ../admin/modules/seo.php:24
+#: ../admin/modules/social-icons.php:25 ../admin/modules/webmaster.php:28
+msgid "Check to Enable"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:25
+msgid ""
+"Add Open Graph meta data to your site's <code>&lt;head&gt;</code> section. "
+"You can specify some of the IDs that are sometimes needed below:"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:26
+msgid ""
+"Open Graph tags for specific Pages or Posts, can be added via Catch Web "
+"Tools Custom Meta Box which shows up in Pages' and Posts' add/edit sections "
+"once this function is enabled."
+msgstr ""
+
+#: ../admin/modules/opengraph.php:35
+msgid "Facebook Settings"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:40
+msgid "Facebook App ID"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:56
+msgid "Homepage Settings"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:119
+msgid "Sitename"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:131
+msgid "Locale"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:146
+msgid "Default Settings"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:152
+msgid "Default Image"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:160
+msgid ""
+"This image is used if the post/page being shared does not contain any images."
+msgstr ""
+
+#: ../admin/modules/opengraph.php:169
+msgid "Custom Settings (Only for Advanced Users)"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:175
+msgid "Custom Tags"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:181
+msgid "For any other type of Open Graph tags."
+msgstr ""
+
+#: ../admin/modules/opengraph.php:182
+msgid "E.g:"
+msgstr ""
+
+#: ../admin/modules/opengraph.php:183
+msgid "If you do not know what this is, you should probably leave it empty."
+msgstr ""
+
+#: ../admin/modules/seo.php:15 ../admin/modules/seo.php:20
+msgid "Enable SEO Module"
+msgstr ""
+
+#: ../admin/modules/seo.php:25
+msgid ""
+"Please make sure you have disabled all the SEO plugins before activating "
+"Catch Work Tools SEO Module."
+msgstr ""
+
+#: ../admin/modules/seo.php:26
+msgid ""
+"SEO for specific Pages or Posts, can be added via Catch Web Tools Custom "
+"Meta Box which shows up in Pages' and Posts' add/edit sections once this "
+"function is enabled. Same settings will show up in Categories' add/edit "
+"pages."
+msgstr ""
+
+#: ../admin/modules/seo.php:35
+msgid "SEO Homepage Settings"
+msgstr ""
+
+#: ../admin/modules/seo.php:40
+msgid "SEO Title"
+msgstr ""
+
+#: ../admin/modules/seo.php:72
+msgid "Author"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:15 ../admin/modules/social-icons.php:20
+msgid "Enable Social Icons Module"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:30
+msgid "Shortcode"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:32
+msgid "The shortcode"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:34
+msgid "(in the Post/Page content) will enable Social Icons into the Page/Post."
+msgstr ""
+
+#: ../admin/modules/social-icons.php:36
+msgid "Widget"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:38
+msgid ""
+"Drag and drop Catch Web Tools' Social Icons Widget to any Sidebar for "
+"results."
+msgstr ""
+
+#: ../admin/modules/social-icons.php:40
+msgid "In WordPress Template"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:42
+msgid ""
+"If Catch Web Tools' Social Icons is required in WordPress template, the "
+"following code can be used: "
+msgstr ""
+
+#: ../admin/modules/social-icons.php:54
+msgid "OR"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:75
+msgid "Social Icons Settings"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:80
+msgid "Enable Social Icons Sidebar?"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:82
+msgid " Drag and Drop Catch Web Tools Social Icons widget to any sidebar"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:87
+msgid "Social Icon Size (px)"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:92
+msgid "Make sure to set the size to a multiple of 16px"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:92
+msgid " or the icons could end up looking fuzzy"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:98
+msgid "Social Icon Color"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:129
+msgid "Google+"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:139
+msgid "Rss Feed"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:149
+msgid "WordPress"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:159
+msgid "GitHub"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:169
+msgid "LinkedIn"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:179
+msgid "Pinterest"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:189
+msgid "Flickr"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:199
+msgid "Vimeo"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:209
+msgid "YouTube"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:219
+msgid "Tumblr"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:229
+msgid "Instagram"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:239
+msgid "CodePen"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:249
+msgid "Polldaddy"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:259
+msgid "Path"
+msgstr ""
+
+#: ../admin/modules/social-icons.php:268
+msgid "Dribbble"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:18 ../admin/modules/webmaster.php:24
+msgid "Enable Webmaster Module"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:38
+msgid "Feed Redirect / Custom Feeds"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:44
+msgid "Enter your custom feed URL:"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:56
+msgid "Enter your custom comments feed URL:"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:67
+msgid ""
+"If your custom feed(s) are not handled by Feedblitz or Feedburner, do not "
+"use the redirect options."
+msgstr ""
+
+#: ../admin/modules/webmaster.php:76
+msgid "Header and Footer Scripts"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:83 ../admin/modules/webmaster.php:96
+msgid "Enter scripts or code you would like output to"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:89 ../admin/modules/webmaster.php:102
+msgid "The"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:89
+msgid ""
+"hook executes immediately before the closing </head> tag in the document "
+"source."
+msgstr ""
+
+#: ../admin/modules/webmaster.php:102
+msgid ""
+"hook executes immediately before the closing </body> tag in the document "
+"source."
+msgstr ""
+
+#: ../admin/modules/webmaster.php:111
+msgid "Site Verification"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:114
+msgid ""
+"You can use the boxes below to verify with different Webmaster Tools. If "
+"your site is already verified, you can skip this section. Enter the verify "
+"meta values for"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:120
+msgid "Google Webmaster Tools"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:125
+msgid "Enter your Google ID number only"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:132
+msgid "Bing Webmaster Tools"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:137
+msgid "Enter your Bing ID number only"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:144
+msgid "Alexa Verification ID"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:149
+msgid "Enter your Alexa ID number only"
+msgstr ""
+
+#: ../functions.php:65
+msgid ""
+"Catch Web Tools requires PHP 5.2 or higher, as does WordPress 3.5 and "
+"higher. The plugin has now disabled itself."
+msgstr ""
