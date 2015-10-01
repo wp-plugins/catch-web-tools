@@ -5,11 +5,11 @@
  * Description: Catch Web Tools is a new modular plugin from Catch Themes. Power up your WordPress site with powerful features that were till now only available to Catch Themes users. We currently offer Webmaster Tools, Open Graph, Custom CSS, Social Icons, Catch IDs and basic SEO Optimization modules and will be adding more.
  * Author: Catch Themes
  * Author URI:  http://catchthemes.com
- * Version: 1.4
+ * Version: 1.4.1
  * License: GNU General Public License, version 3 (GPLv3)
  * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
  * Requires at least: 4.1
- * Tested up to: 4.3
+ * Tested up to: 4.3.1
  *
  * Text Domain: catch-web-tools
  * Domain Path: /catch-web-tools/
@@ -46,9 +46,9 @@ if ( !defined( 'CATCHWEBTOOLS_BASENAME' ) )
  * Translations can be filed in the /languages/ directory
  */
 function catchwebtools_load_textdomain() {
-	load_plugin_textdomain( 'catchwebtools', false, basename( dirname( __FILE__ ) ) . '/languages/' );
+	load_plugin_textdomain( 'catch-web-tools', false, basename( dirname( __FILE__ ) ) . '/languages/' );
 }
-add_filter( 'init', 'catchwebtools_load_textdomain', 1 );
+add_action( 'init', 'catchwebtools_load_textdomain', 1 );
 
 
 /**
@@ -62,7 +62,7 @@ if ( version_compare( PHP_VERSION, '5.2', '<' ) ) {
 		
 		deactivate_plugins( __FILE__ );
 		
-		wp_die( sprintf( __( 'Catch Web Tools requires PHP 5.2 or higher, as does WordPress 3.5 and higher. The plugin has now disabled itself.', 'catchwebtools' ) ) );
+		wp_die( sprintf( __( 'Catch Web Tools requires PHP 5.2 or higher, as does WordPress 3.5 and higher. The plugin has now disabled itself.', 'catch-web-tools' ) ) );
 	} else {
 		return;
 	}

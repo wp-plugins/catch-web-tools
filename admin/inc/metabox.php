@@ -95,19 +95,19 @@ function catchwebtools_custom_seo_fields( $post, $meta_box ) {
 		?>
         <ul class="ui-tabs-nav" id="ui-tabs-nav">
             <?php if( isset( $opengraph_settings['status'] ) && $opengraph_settings['status'] ) {?>
-            <li><a href="#frag1"><?php _e( 'Open Graph', 'catchwebtools' )?></a></li>
+            <li><a href="#frag1"><?php _e( 'Open Graph', 'catch-web-tools' )?></a></li>
             <?php } ?>
             <?php if( isset( $seo_settings['status'] ) && $seo_settings['status'] ) {?>
-            <li><a href="#frag2"><?php _e( 'Seo Settings', 'catchwebtools' )?></a></li>
+            <li><a href="#frag2"><?php _e( 'Seo Settings', 'catch-web-tools' )?></a></li>
         	<?php } ?>
         </ul>
         <?php if( isset( $opengraph_settings['status'] ) && $opengraph_settings['status'] ) {?>
         	<div id="frag1" class="catch_ad_tabhead">
-            <p><label><?php _e( 'Title', 'catchwebtools' )?>:</label><br /><input type="text" size="80" name="catchwebtools_opengraph_title" id="catchwebtools_opengraph_title" style="width:98%;" value="<?php esc_attr_e($catchwebtools_opengraph_title); ?>"></p>
-    <p><label><?php _e( 'URL', 'catchwebtools' )?>:</label><br /><input type="text" size="80" name="catchwebtools_opengraph_url" id="catchwebtools_opengraph_url" style="width:98%;" value="<?php esc_attr_e($catchwebtools_opengraph_url); ?>"></p>
-	<p><label><?php _e( 'Image URL', 'catchwebtools' )?>:</label><br /><input type="text" size="80" name="catchwebtools_opengraph_image" id="catchwebtools_opengraph_image" style="width:98%;" value="<?php esc_attr_e($catchwebtools_opengraph_image); ?>"></p>
-	<p><label><?php _e( 'Description', 'catchwebtools' )?>:</label><br /><input type="text" size="80" name="catchwebtools_opengraph_description" id="catchwebtools_opengraph_description" style="width:98%;" value="<?php esc_attr_e($catchwebtools_opengraph_description); ?>"></p>
-    <p><label><?php _e( 'Type', 'catchwebtools' )?>:</label><br />
+            <p><label><?php _e( 'Title', 'catch-web-tools' )?>:</label><br /><input type="text" size="80" name="catchwebtools_opengraph_title" id="catchwebtools_opengraph_title" style="width:98%;" value="<?php esc_attr_e($catchwebtools_opengraph_title); ?>"></p>
+    <p><label><?php _e( 'URL', 'catch-web-tools' )?>:</label><br /><input type="text" size="80" name="catchwebtools_opengraph_url" id="catchwebtools_opengraph_url" style="width:98%;" value="<?php esc_attr_e($catchwebtools_opengraph_url); ?>"></p>
+	<p><label><?php _e( 'Image URL', 'catch-web-tools' )?>:</label><br /><input type="text" size="80" name="catchwebtools_opengraph_image" id="catchwebtools_opengraph_image" style="width:98%;" value="<?php esc_attr_e($catchwebtools_opengraph_image); ?>"></p>
+	<p><label><?php _e( 'Description', 'catch-web-tools' )?>:</label><br /><input type="text" size="80" name="catchwebtools_opengraph_description" id="catchwebtools_opengraph_description" style="width:98%;" value="<?php esc_attr_e($catchwebtools_opengraph_description); ?>"></p>
+    <p><label><?php _e( 'Type', 'catch-web-tools' )?>:</label><br />
     <select name="catchwebtools_opengraph_type" id="catchwebtools_opengraph_type" style="width:98%;">
     <?php
 		$options	=	array('website', 'music.song', 'music.radio_station', 'music.playlist', 'music.album', 'video.movie', 'video.tv_show', 'video.episode', 'video.other', 'article', 'book', 'profile');
@@ -121,19 +121,19 @@ function catchwebtools_custom_seo_fields( $post, $meta_box ) {
 	?>
     </select>
 	</p>
-    <p><label><?php _e( 'Custom tags', 'catchwebtools' )?></label><br/><textarea name="catchwebtools_opengraph_custom" id="catchwebtools_opengraph_custom" style="width:98%;"><?php esc_attr_e($catchwebtools_opengraph_description); ?></textarea>
+    <p><label><?php _e( 'Custom tags', 'catch-web-tools' )?></label><br/><textarea name="catchwebtools_opengraph_custom" id="catchwebtools_opengraph_custom" style="width:98%;"><?php esc_attr_e($catchwebtools_opengraph_description); ?></textarea>
         </div><!-- #frag1 -->
         <?php } ?>
         <?php if( isset( $seo_settings['status'] ) && $seo_settings['status'] ) {?>
         <div id="frag2" class="catch_ad_tabhead">
-            <p><label><?php _e( 'Title', 'catchwebtools' )?>:</label><br /><input type="text" size="80"  maxlength="70" id="catchwebtools_seo_title" name="catchwebtools_seo_title" id="catchwebtools_seo_title" style="width:98%;" value="<?php echo  esc_attr($catchwebtools_seo_title); ?>">
-            	<p class="description"><?php _e( 'Title display in search engines is limited to 70 characters. ', 'catchwebtools' )?><span id="catchwebtools_seo_title_left">70</span>&nbsp;<?php _e( 'character(s) left.', 'catchwebtools' )?></p>
+            <p><label><?php _e( 'Title', 'catch-web-tools' )?>:</label><br /><input type="text" size="80"  maxlength="70" id="catchwebtools_seo_title" name="catchwebtools_seo_title" id="catchwebtools_seo_title" style="width:98%;" value="<?php echo  esc_attr($catchwebtools_seo_title); ?>">
+            	<p class="description"><?php _e( 'Title display in search engines is limited to 70 characters. ', 'catch-web-tools' )?><span id="catchwebtools_seo_title_left">70</span>&nbsp;<?php _e( 'character(s) left.', 'catch-web-tools' )?></p>
             </p>
-            <p><label><?php _e( 'Meta Description', 'catchwebtools' )?>:</label><br /><textarea maxlength="156" name="catchwebtools_seo_description" id="catchwebtools_seo_description" style="width:98%;"><?php esc_attr_e($catchwebtools_seo_description); ?></textarea>
-                <p class="description"><?php _e( 'The meta description is limited to 156 characters. ', 'catchwebtools' )?><span id="catchwebtools_seo_description_left">156</span>&nbsp;<?php _e( 'character(s) left.', 'catchwebtools' )?></p>
+            <p><label><?php _e( 'Meta Description', 'catch-web-tools' )?>:</label><br /><textarea maxlength="156" name="catchwebtools_seo_description" id="catchwebtools_seo_description" style="width:98%;"><?php esc_attr_e($catchwebtools_seo_description); ?></textarea>
+                <p class="description"><?php _e( 'The meta description is limited to 156 characters. ', 'catch-web-tools' )?><span id="catchwebtools_seo_description_left">156</span>&nbsp;<?php _e( 'character(s) left.', 'catch-web-tools' )?></p>
             </p>
    
-			<p><label><?php _e( 'Focus Keywords', 'catchwebtools' )?>:</label><br /><input type="text" name="catchwebtools_seo_keywords" id="catchwebtools_seo_keywords" style="width:98%;" value="<?php esc_attr_e($catchwebtools_seo_keywords); ?>"/>
+			<p><label><?php _e( 'Focus Keywords', 'catch-web-tools' )?>:</label><br /><input type="text" name="catchwebtools_seo_keywords" id="catchwebtools_seo_keywords" style="width:98%;" value="<?php esc_attr_e($catchwebtools_seo_keywords); ?>"/>
             </p>
         </div><!-- #frag2 -->
         <?php } ?>
@@ -245,24 +245,24 @@ function catchwebtools_category_seo_add_form() {
 	// this will add the custom meta field to the add new term page
 	?>
     
-    <h2><?php _e( 'Catch Web Tools SEO Settings', 'catchwebtools' )?></h2>
+    <h2><?php _e( 'Catch Web Tools SEO Settings', 'catch-web-tools' )?></h2>
     
 	<div class="form-field">
-		<label for="catchwebtools_seo_category_title"><?php _e( 'SEO title', 'catchwebtools' )?></label>
+		<label for="catchwebtools_seo_category_title"><?php _e( 'SEO title', 'catch-web-tools' )?></label>
 		<input type="text" name="term_meta[catchwebtools_seo_category_title]" id="term_meta[catchwebtools_seo_category_title]" value=""><p class="description">
-		<?php _e( 'The SEO title is used on the archive page for this term.', 'catchwebtools' )?>
+		<?php _e( 'The SEO title is used on the archive page for this term.', 'catch-web-tools' )?>
 	</div>
     
     <div class="form-field">
-		<label for="catchwebtools_seo_category_description"><?php _e( 'SEO Description', 'catchwebtools' )?></label>
+		<label for="catchwebtools_seo_category_description"><?php _e( 'SEO Description', 'catch-web-tools' )?></label>
 		<textarea cols="40" rows="5" name="term_meta[catchwebtools_seo_category_description]" id="term_meta[catchwebtools_seo_category_description]"></textarea><p class="description">
-		<?php _e( 'The SEO description is used for the meta description on the archive page for this term.', 'catchwebtools' )?></p>
+		<?php _e( 'The SEO description is used for the meta description on the archive page for this term.', 'catch-web-tools' )?></p>
 	</div>
     
     <div class="form-field">
-		<label for="catchwebtools_seo_category_keywords"><?php _e( 'Meta Keywords', 'catchwebtools' )?></label>
+		<label for="catchwebtools_seo_category_keywords"><?php _e( 'Meta Keywords', 'catch-web-tools' )?></label>
 		<input type="text" name="term_meta[catchwebtools_seo_category_keywords]" id="term_meta[catchwebtools_seo_category_keywords]" value=""><p class="description">
-		<p class="description"><?php _e( 'Meta keywords used on the archive page for this term.', 'catchwebtools' )?></p>
+		<p class="description"><?php _e( 'Meta keywords used on the archive page for this term.', 'catch-web-tools' )?></p>
 	</div>
 <?php
 }
@@ -280,29 +280,29 @@ function catchwebtools_category_seo_edit_form( $term ) {
 	$term_meta = get_option( "taxonomy_$t_id" ); ?>
 	<table class="form-table">
 		<tr class="form-field">
-			<th colspan="2"><h2><?php _e( 'Catch Web Tools SEO Settings', 'catchwebtools' )?></h2></th>
+			<th colspan="2"><h2><?php _e( 'Catch Web Tools SEO Settings', 'catch-web-tools' )?></h2></th>
 		</tr>
 		<tr class="form-field">
 		<th scope="row" valign="top">
-			<label for="catchwebtools_seo_category_description"><?php _e( 'SEO title', 'catchwebtools' )?></label></th>
+			<label for="catchwebtools_seo_category_description"><?php _e( 'SEO title', 'catch-web-tools' )?></label></th>
 		<td>
-			<input type="text" name="term_meta[catchwebtools_seo_category_title]" id="term_meta[catchwebtools_seo_category_title]" value="<?php echo ( isset( $term_meta['catchwebtools_seo_category_title'] ) && esc_attr( $term_meta['catchwebtools_seo_category_title'] ) != '' ) ? esc_attr( $term_meta['catchwebtools_seo_category_title'] ) : '';?>"><p class="description"><?php _e( 'The SEO title is used on the archive page for this term.', 'catchwebtools' )?></p>
+			<input type="text" name="term_meta[catchwebtools_seo_category_title]" id="term_meta[catchwebtools_seo_category_title]" value="<?php echo ( isset( $term_meta['catchwebtools_seo_category_title'] ) && esc_attr( $term_meta['catchwebtools_seo_category_title'] ) != '' ) ? esc_attr( $term_meta['catchwebtools_seo_category_title'] ) : '';?>"><p class="description"><?php _e( 'The SEO title is used on the archive page for this term.', 'catch-web-tools' )?></p>
 		</td>
 		</tr>
 		
 		<tr class="form-field">
 		<th scope="row" valign="top">
-			<label for="catchwebtools_seo_category_description"><?php _e( 'SEO Description', 'catchwebtools' ) ?>:</label></th>
+			<label for="catchwebtools_seo_category_description"><?php _e( 'SEO Description', 'catch-web-tools' ) ?>:</label></th>
 		<td>
-			<textarea cols="50" rows="5" name="term_meta[catchwebtools_seo_category_description]" id="term_meta[catchwebtools_seo_category_description]" ><?php echo ( isset( $term_meta['catchwebtools_seo_category_description'] ) && esc_attr( $term_meta['catchwebtools_seo_category_description'] ) != '' ) ? esc_attr( $term_meta['catchwebtools_seo_category_description'] ) : '';?></textarea><p class="description"><?php _e( 'The SEO description is used for the meta description on the archive page for this term.', 'catchwebtools' )?></p>
+			<textarea cols="50" rows="5" name="term_meta[catchwebtools_seo_category_description]" id="term_meta[catchwebtools_seo_category_description]" ><?php echo ( isset( $term_meta['catchwebtools_seo_category_description'] ) && esc_attr( $term_meta['catchwebtools_seo_category_description'] ) != '' ) ? esc_attr( $term_meta['catchwebtools_seo_category_description'] ) : '';?></textarea><p class="description"><?php _e( 'The SEO description is used for the meta description on the archive page for this term.', 'catch-web-tools' )?></p>
 		</td>
 		</tr>
 		
 		<tr class="form-field">
 		<th scope="row" valign="top">
-			<label for="catchwebtools_seo_category_keywords"><?php _e( 'Meta Keywords', 'catchwebtools' )?>:</label></th>
+			<label for="catchwebtools_seo_category_keywords"><?php _e( 'Meta Keywords', 'catch-web-tools' )?>:</label></th>
 		<td>
-			<input type="text" name="term_meta[catchwebtools_seo_category_keywords]" id="term_meta[catchwebtools_seo_category_keywords]" value="<?php echo ( isset( $term_meta['catchwebtools_seo_category_keywords'] ) && esc_attr( $term_meta['catchwebtools_seo_category_keywords'] ) != '' ) ? esc_attr( $term_meta['catchwebtools_seo_category_keywords'] ) : '';?>"><p class="description"><?php _e( 'Meta keywords used on the archive page for this term.', 'catchwebtools' )?></p>
+			<input type="text" name="term_meta[catchwebtools_seo_category_keywords]" id="term_meta[catchwebtools_seo_category_keywords]" value="<?php echo ( isset( $term_meta['catchwebtools_seo_category_keywords'] ) && esc_attr( $term_meta['catchwebtools_seo_category_keywords'] ) != '' ) ? esc_attr( $term_meta['catchwebtools_seo_category_keywords'] ) : '';?>"><p class="description"><?php _e( 'Meta keywords used on the archive page for this term.', 'catch-web-tools' )?></p>
 		</td>
 		</tr>
 	</table>

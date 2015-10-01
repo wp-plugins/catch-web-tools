@@ -25,20 +25,20 @@ class catchwebtools {
 	 */
 	 function add_plugin_settings_menu() {
 		//add_menu_page( $page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position ); 
-		add_menu_page( __('Dashboard', 'catchwebtools' ), __( 'Catch Web Tools', 'catchwebtools' ), 'manage_options', 'catch-web-tools', array( $this, 'catch_web_tools_settings_page' ), CATCHWEBTOOLS_URL . 'images/catch-themes-themes-option.png', '99.01564' );
+		add_menu_page( __('Dashboard', 'catch-web-tools' ), __( 'Catch Web Tools', 'catch-web-tools' ), 'manage_options', 'catch-web-tools', array( $this, 'catch_web_tools_settings_page' ), CATCHWEBTOOLS_URL . 'images/catch-themes-themes-option.png', '99.01564' );
 		
 		//add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function);
-		add_submenu_page( 'catch-web-tools', __( 'Dashboard', 'catchwebtools' ), __( 'Dashboard', 'catchwebtools' ), 'manage_options', 'catch-web-tools', array( $this, 'catch_web_tools_settings_page' ) );
+		add_submenu_page( 'catch-web-tools', __( 'Dashboard', 'catch-web-tools' ), __( 'Dashboard', 'catch-web-tools' ), 'manage_options', 'catch-web-tools', array( $this, 'catch_web_tools_settings_page' ) );
 		
-		add_submenu_page( 'catch-web-tools', __( 'Webmasters', 'catchwebtools' ), __( 'Webmasters', 'catchwebtools' ), 'manage_options', 'catch-web-tools-webmasters', array( $this, 'catch_web_tools_webmaster_page' ) );
+		add_submenu_page( 'catch-web-tools', __( 'Webmasters', 'catch-web-tools' ), __( 'Webmasters', 'catch-web-tools' ), 'manage_options', 'catch-web-tools-webmasters', array( $this, 'catch_web_tools_webmaster_page' ) );
 		
-		add_submenu_page( 'catch-web-tools', __( 'Custom CSS', 'catchwebtools' ), __( 'Custom CSS', 'catchwebtools' ), 'manage_options', 'catch-web-tools-custom-css', array( $this, 'catch_web_tools_custom_css_page' ) );
+		add_submenu_page( 'catch-web-tools', __( 'Custom CSS', 'catch-web-tools' ), __( 'Custom CSS', 'catch-web-tools' ), 'manage_options', 'catch-web-tools-custom-css', array( $this, 'catch_web_tools_custom_css_page' ) );
 		
-		add_submenu_page( 'catch-web-tools', __( 'Social Icons', 'catchwebtools' ), __( 'Social Icons', 'catchwebtools' ), 'manage_options', 'catch-web-tools-social-icons', array( $this, 'catch_web_tools_social_icons_page' ) );
+		add_submenu_page( 'catch-web-tools', __( 'Social Icons', 'catch-web-tools' ), __( 'Social Icons', 'catch-web-tools' ), 'manage_options', 'catch-web-tools-social-icons', array( $this, 'catch_web_tools_social_icons_page' ) );
 		
-		add_submenu_page( 'catch-web-tools', __( 'Open Graph', 'catchwebtools' ), __( 'Open Graph', 'catchwebtools' ), 'manage_options', 'catch-web-tools-opengraph', array( $this, 'catch_web_tools_opengraph_page' ) );		
+		add_submenu_page( 'catch-web-tools', __( 'Open Graph', 'catch-web-tools' ), __( 'Open Graph', 'catch-web-tools' ), 'manage_options', 'catch-web-tools-opengraph', array( $this, 'catch_web_tools_opengraph_page' ) );		
 		
-		add_submenu_page( 'catch-web-tools', __( 'SEO', 'catchwebtools' ), __( 'SEO', 'catchwebtools' ), 'manage_options', 'catch-web-tools-seo', array( $this, 'catch_web_tools_seo_page' ) );		
+		add_submenu_page( 'catch-web-tools', __( 'SEO', 'catch-web-tools' ), __( 'SEO', 'catch-web-tools' ), 'manage_options', 'catch-web-tools-seo', array( $this, 'catch_web_tools_seo_page' ) );		
 	}
 
 	/**

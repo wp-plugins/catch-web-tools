@@ -4,25 +4,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Web Tools\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2013-10-31 00:40+0545\n"
-"PO-Revision-Date: 2013-10-31 00:40+0545\n"
-"Last-Translator: Sakin Shrestha <sakin@catchinternet.com>\n"
+"POT-Creation-Date: 2015-10-02 01:00+0545\n"
+"PO-Revision-Date: 2015-10-02 01:00+0545\n"
+"Last-Translator: Sakin Shrestha <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_attr_e;esc_attr__;_nx\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
-
-#: ../functions.php:65
-msgid ""
-"Catch Web Tools requires PHP 5.2 or higher, as does WordPress 3.5 and "
-"higher. The plugin has now disabled itself."
-msgstr ""
 
 #: ../admin/inc/core.php:28 ../admin/inc/core.php:31
 #: ../admin/modules/navigation.php:9
@@ -42,7 +36,7 @@ msgstr ""
 msgid "Custom CSS"
 msgstr ""
 
-#: ../admin/inc/core.php:37 ../admin/inc/social-icons.php:107
+#: ../admin/inc/core.php:37 ../admin/inc/social-icons.php:115
 #: ../admin/modules/dashboard.php:88 ../admin/modules/navigation.php:21
 msgid "Social Icons"
 msgstr ""
@@ -142,11 +136,11 @@ msgstr ""
 msgid "Meta keywords used on the archive page for this term."
 msgstr ""
 
-#: ../admin/inc/social-icons.php:70
+#: ../admin/inc/social-icons.php:78
 msgid "Use this widget to add Catch Web Tools Social Icons as a widget. "
 msgstr ""
 
-#: ../admin/inc/social-icons.php:111
+#: ../admin/inc/social-icons.php:119
 msgid "Title (optional):"
 msgstr ""
 
@@ -578,60 +572,84 @@ msgid "Enable Webmaster Module"
 msgstr ""
 
 #: ../admin/modules/webmaster.php:38
+msgid "Feed Redirect / Custom Feeds"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:44
+msgid "Enter your custom feed URL:"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:56
+msgid "Enter your custom comments feed URL:"
+msgstr ""
+
+#: ../admin/modules/webmaster.php:67
+msgid ""
+"If your custom feed(s) are not handled by Feedblitz or Feedburner, do not "
+"use the redirect options."
+msgstr ""
+
+#: ../admin/modules/webmaster.php:76
 msgid "Header and Footer Scripts"
 msgstr ""
 
-#: ../admin/modules/webmaster.php:45 ../admin/modules/webmaster.php:58
+#: ../admin/modules/webmaster.php:83 ../admin/modules/webmaster.php:96
 msgid "Enter scripts or code you would like output to"
 msgstr ""
 
-#: ../admin/modules/webmaster.php:51 ../admin/modules/webmaster.php:64
+#: ../admin/modules/webmaster.php:89 ../admin/modules/webmaster.php:102
 msgid "The"
 msgstr ""
 
-#: ../admin/modules/webmaster.php:51
+#: ../admin/modules/webmaster.php:89
 msgid ""
 "hook executes immediately before the closing </head> tag in the document "
 "source."
 msgstr ""
 
-#: ../admin/modules/webmaster.php:64
+#: ../admin/modules/webmaster.php:102
 msgid ""
 "hook executes immediately before the closing </body> tag in the document "
 "source."
 msgstr ""
 
-#: ../admin/modules/webmaster.php:73
+#: ../admin/modules/webmaster.php:111
 msgid "Site Verification"
 msgstr ""
 
-#: ../admin/modules/webmaster.php:76
+#: ../admin/modules/webmaster.php:114
 msgid ""
 "You can use the boxes below to verify with different Webmaster Tools. If "
 "your site is already verified, you can skip this section. Enter the verify "
 "meta values for"
 msgstr ""
 
-#: ../admin/modules/webmaster.php:82
+#: ../admin/modules/webmaster.php:120
 msgid "Google Webmaster Tools"
 msgstr ""
 
-#: ../admin/modules/webmaster.php:87
+#: ../admin/modules/webmaster.php:125
 msgid "Enter your Google ID number only"
 msgstr ""
 
-#: ../admin/modules/webmaster.php:94
+#: ../admin/modules/webmaster.php:132
 msgid "Bing Webmaster Tools"
 msgstr ""
 
-#: ../admin/modules/webmaster.php:99
+#: ../admin/modules/webmaster.php:137
 msgid "Enter your Bing ID number only"
 msgstr ""
 
-#: ../admin/modules/webmaster.php:106
+#: ../admin/modules/webmaster.php:144
 msgid "Alexa Verification ID"
 msgstr ""
 
-#: ../admin/modules/webmaster.php:111
+#: ../admin/modules/webmaster.php:149
 msgid "Enter your Alexa ID number only"
+msgstr ""
+
+#: ../functions.php:65
+msgid ""
+"Catch Web Tools requires PHP 5.2 or higher, as does WordPress 3.5 and "
+"higher. The plugin has now disabled itself."
 msgstr ""

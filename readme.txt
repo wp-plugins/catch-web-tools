@@ -5,8 +5,8 @@ License: GNU General Public License, version 3 (GPLv3)
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 Tags: catch-ids, simple, admin, wp-admin, show, ids, post, page, category, media, links, tag, user, widget, seo, search engine optimization, google, alexa, bing, meta keywords, meta description, social icons, github, dribbble, twitter, facebook, wordpress, googleplus, linkedin, pinterest, flickr, vimeo, youtube, tumblr, instagram, codepen, polldaddy, path, css, open graphs, plugin, posts, sidebar, image, images
 Requires at least: 4.1
-Tested up to: 4.3
-Stable tag: 1.4
+Tested up to: 4.3.1
+Stable tag: 1.4.1
 
 Improve your WordPress site with powerful web tools by catchthemes.com
 
@@ -141,9 +141,12 @@ Catch Web Tools: SEO Settings
 
 == Changelog ==
 
+= 1.4.1 =
+* Changed text domain from catchwebtools to catch-web-tools
+
 = 1.4 =
 * Added: Feed redirect / custom feed options under webmaster tools
-* Changed: Suppor URL
+* Changed: Support URL
 
 = 1.3 =
 * Bug Fixed: Escaped outputs for social icons

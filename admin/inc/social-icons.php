@@ -75,7 +75,7 @@ class CatchWebToolsSocialIcons extends WP_Widget {
 		parent::__construct(
 			'catch_web_tools_social_icons', // Base ID
 			'Catch Web Tools Social Icons', // Name
-			array( 'description' => __( 'Use this widget to add Catch Web Tools Social Icons as a widget. ', 'catchwebtools' ), ) // Args
+			array( 'description' => __( 'Use this widget to add Catch Web Tools Social Icons as a widget. ', 'catch-web-tools' ), ) // Args
 		);
 	}
 
@@ -112,11 +112,11 @@ class CatchWebToolsSocialIcons extends WP_Widget {
 			$title = $instance['title'];
 		}
 		else {
-			$title = __( 'Social Icons', 'catchwebtools' );
+			$title = __( 'Social Icons', 'catch-web-tools' );
 		}
 		?>
 		<p>
-		<label for="<?php echo $this->get_field_name( 'title' ); ?>"><?php _e( 'Title (optional):', 'catchwebtools' ); ?></label> 
+		<label for="<?php echo $this->get_field_name( 'title' ); ?>"><?php _e( 'Title (optional):', 'catch-web-tools' ); ?></label> 
 		<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
 		</p>
         <?php 

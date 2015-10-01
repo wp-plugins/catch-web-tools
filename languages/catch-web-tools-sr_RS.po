@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Web Tools\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2015-08-31 11:44+0545\n"
-"PO-Revision-Date: 2015-08-31 11:44+0545\n"
+"POT-Creation-Date: 2015-10-02 01:01+0545\n"
+"PO-Revision-Date: 2015-10-02 01:01+0545\n"
 "Last-Translator: Sakin Shrestha <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: en_US\n"
@@ -16,163 +16,168 @@ msgstr ""
 "X-Generator: Poedit 1.7.1\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_attr_e;esc_attr__;_nx\n"
 "X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../admin/inc/core.php:28 ../admin/inc/core.php:31
 #: ../admin/modules/navigation.php:9
 msgid "Dashboard"
-msgstr ""
+msgstr "Komandna tabla"
 
 #: ../admin/inc/core.php:28 ../admin/modules/dashboard.php:12
 msgid "Catch Web Tools"
-msgstr ""
+msgstr "Catch Web Tools"
 
 #: ../admin/inc/core.php:33
 msgid "Webmasters"
-msgstr ""
+msgstr "Webmaster-i"
 
 #: ../admin/inc/core.php:35 ../admin/modules/dashboard.php:49
 #: ../admin/modules/navigation.php:17
 msgid "Custom CSS"
-msgstr ""
+msgstr "Prilagođeni CSS"
 
 #: ../admin/inc/core.php:37 ../admin/inc/social-icons.php:115
 #: ../admin/modules/dashboard.php:88 ../admin/modules/navigation.php:21
 msgid "Social Icons"
-msgstr ""
+msgstr "Social Icons"
 
 #: ../admin/inc/core.php:39 ../admin/inc/metabox.php:98
 #: ../admin/modules/dashboard.php:120 ../admin/modules/navigation.php:25
 msgid "Open Graph"
-msgstr ""
+msgstr "Open Graph"
 
 #: ../admin/inc/core.php:41 ../admin/modules/navigation.php:29
 msgid "SEO"
-msgstr ""
+msgstr "SEO"
 
 #: ../admin/inc/core.php:50 ../admin/inc/core.php:63 ../admin/inc/core.php:76
 #: ../admin/inc/core.php:89 ../admin/inc/core.php:102
 #: ../admin/inc/core.php:115
 msgid "You do not have sufficient permissions to access this page."
-msgstr ""
+msgstr "Nemate odgovarajuća ovlašćenja za pristup ovoj stranici."
 
 #: ../admin/inc/metabox.php:101
 msgid "Seo Settings"
-msgstr ""
+msgstr "Seo podešavanja"
 
 #: ../admin/inc/metabox.php:106 ../admin/inc/metabox.php:129
 #: ../admin/modules/opengraph.php:62
 msgid "Title"
-msgstr ""
+msgstr "Naziv"
 
 #: ../admin/inc/metabox.php:107 ../admin/modules/opengraph.php:95
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../admin/inc/metabox.php:108
 msgid "Image URL"
-msgstr ""
+msgstr "URL slike"
 
 #: ../admin/inc/metabox.php:109 ../admin/modules/opengraph.php:107
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #: ../admin/inc/metabox.php:110 ../admin/modules/opengraph.php:74
 msgid "Type"
-msgstr ""
+msgstr "Vrsta"
 
 #: ../admin/inc/metabox.php:124
 msgid "Custom tags"
-msgstr ""
+msgstr "Prilagođene oznake"
 
 #: ../admin/inc/metabox.php:130 ../admin/modules/seo.php:45
 msgid "Title display in search engines is limited to 70 characters. "
-msgstr ""
+msgstr "Naziv koji se prikazuje u pretraživačima ograničen je na 70 karaktera."
 
 #: ../admin/inc/metabox.php:130 ../admin/inc/metabox.php:133
 #: ../admin/modules/seo.php:45 ../admin/modules/seo.php:56
 msgid "character(s) left."
-msgstr ""
+msgstr "ostalo je još karaktera"
 
 #: ../admin/inc/metabox.php:132 ../admin/modules/seo.php:51
 msgid "Meta Description"
-msgstr ""
+msgstr "Meta opis"
 
 #: ../admin/inc/metabox.php:133 ../admin/modules/seo.php:56
 msgid "The meta description is limited to 156 characters. "
-msgstr ""
+msgstr "Meta opis je ograničen na 156 karaktera."
 
 #: ../admin/inc/metabox.php:136 ../admin/modules/seo.php:62
 msgid "Focus Keywords"
-msgstr ""
+msgstr "Fokus ključne reči"
 
 #: ../admin/inc/metabox.php:248 ../admin/inc/metabox.php:283
 msgid "Catch Web Tools SEO Settings"
-msgstr ""
+msgstr "Catch Web Tools SEO podešavanja"
 
 #: ../admin/inc/metabox.php:251 ../admin/inc/metabox.php:287
 msgid "SEO title"
-msgstr ""
+msgstr "SEO naslov"
 
 #: ../admin/inc/metabox.php:253 ../admin/inc/metabox.php:289
 msgid "The SEO title is used on the archive page for this term."
-msgstr ""
+msgstr "SEO naslov koristi se na stranici arhive za ovaj termin"
 
 #: ../admin/inc/metabox.php:257 ../admin/inc/metabox.php:295
 msgid "SEO Description"
-msgstr ""
+msgstr "SEO opis"
 
 #: ../admin/inc/metabox.php:259 ../admin/inc/metabox.php:297
 msgid ""
 "The SEO description is used for the meta description on the archive page for "
 "this term."
-msgstr ""
+msgstr "SEO opis koristi se za meta opis na stranici arhive za ovaj termin."
 
 #: ../admin/inc/metabox.php:263 ../admin/inc/metabox.php:303
 msgid "Meta Keywords"
-msgstr ""
+msgstr "Meta ključne reči"
 
 #: ../admin/inc/metabox.php:265 ../admin/inc/metabox.php:305
 msgid "Meta keywords used on the archive page for this term."
-msgstr ""
+msgstr "Meta ključne reči koriste se na stranici arhive za ovaj termin."
 
 #: ../admin/inc/social-icons.php:78
 msgid "Use this widget to add Catch Web Tools Social Icons as a widget. "
 msgstr ""
+"Upotrebite ovaj widget da biste dodali Catch Web Tools Social Icons kao "
+"widget."
 
 #: ../admin/inc/social-icons.php:119
 msgid "Title (optional):"
-msgstr ""
+msgstr "Naziv (opcioni):"
 
 #: ../admin/modules/custom-css.php:15
 msgid "Custom Css Settings"
-msgstr ""
+msgstr "Podešavanja za prilagođeni CSS"
 
 #: ../admin/modules/custom-css.php:20
 msgid "Enter Custom Css"
-msgstr ""
+msgstr "Unesite prilagođeni CSS"
 
 #: ../admin/modules/custom-css.php:25
 msgid ""
 "You can just add your Custom CSS and save, it will show up in the frontend "
 "head section. Leave it blank if it is not needed."
 msgstr ""
+"Možete samo dodati svoj prilagođeni CSS i sačuvati ga. Pojaviće vam se u "
+"zaglavlju čeonog programa. Ostavite prazno ako vam ne treba."
 
 #: ../admin/modules/custom-css.php:30
 msgid "CSS Tutorial from W3Schools."
-msgstr ""
+msgstr "CSS Uputstvo iz W3Schools."
 
 #: ../admin/modules/custom-css.php:32
 msgid "http://www.w3schools.com/css/default.asp"
-msgstr ""
+msgstr "http://www.w3schools.com/css/default.asp"
 
 #: ../admin/modules/custom-css.php:32
 msgid "CSS Tutorial"
-msgstr ""
+msgstr "CSS Uputstvo"
 
 #: ../admin/modules/custom-css.php:32
 msgid "Click Here to Read"
-msgstr ""
+msgstr "Klinkite ovde da biste pročitali"
 
 #: ../admin/modules/dashboard.php:14
 msgid ""
@@ -182,34 +187,41 @@ msgid ""
 "currently offer Webmaster Tools, Open Graph, Custom CSS, Social Icons, Catch "
 "IDs and basic SEO Optimization."
 msgstr ""
+"Catch Web Tools je jednostavan i lagan WordPress plugin osmišljen da vam "
+"pomogne prilikom upravljanja vašim WordPress site-om. Poboljšajte svoj "
+"WordPress site moćnim funkcijama koje su do sada bile na raspolaganju samo "
+"Catch Themes korisnicima. Trenutno nudimo Webmaster Tools, Open Graph, "
+"Custom CSS, Social Icons, Catch IDs i osnovnu SEO optimizaciju."
 
 #: ../admin/modules/dashboard.php:20 ../admin/modules/navigation.php:13
 msgid "Webmaster Tools"
-msgstr ""
+msgstr "Webmaster Tools"
 
 #: ../admin/modules/dashboard.php:22
 msgid ""
 "Webmaster Tools gives you an option to add in the Site Verfication Code and "
 "Header and Footer Script required to manage your site."
 msgstr ""
+"Webmaster Tools pruža vam mogućnost da dodate kod za verifikaciju site-a, "
+"zaglavlje i podnožje koji su vam potrebni da biste upravljali svojim site-om."
 
 #: ../admin/modules/dashboard.php:34 ../admin/modules/dashboard.php:75
 #: ../admin/modules/dashboard.php:105 ../admin/modules/dashboard.php:133
 #: ../admin/modules/dashboard.php:162
 msgid "Deactivate"
-msgstr ""
+msgstr "Deaktiviraj"
 
 #: ../admin/modules/dashboard.php:39 ../admin/modules/dashboard.php:80
 #: ../admin/modules/dashboard.php:110 ../admin/modules/dashboard.php:138
 #: ../admin/modules/dashboard.php:167
 msgid "Activate"
-msgstr ""
+msgstr "Aktiviraj"
 
 #: ../admin/modules/dashboard.php:43 ../admin/modules/dashboard.php:54
 #: ../admin/modules/dashboard.php:114 ../admin/modules/dashboard.php:142
 #: ../admin/modules/dashboard.php:171
 msgid "Configure"
-msgstr ""
+msgstr "Konfiguriši"
 
 #: ../admin/modules/dashboard.php:51
 msgid ""
@@ -218,20 +230,28 @@ msgid ""
 "will show up in the frontend head section. Leave it blank if it is not "
 "needed."
 msgstr ""
+"Prilagođeni CSS omogućava vam da dodate CSS svom WordPress site-u bez "
+"građenja podređene teme. Možete samo dodati svoj prilagođeni CSS, sačuvati "
+"ga i pojaviće se u zaglavlju čeonog programa. Ostavite prazno ako vam ne "
+"treba. "
 
 #: ../admin/modules/dashboard.php:59
 msgid "Catch IDs"
-msgstr ""
+msgstr "Catch ID"
 
 #: ../admin/modules/dashboard.php:62
 msgid ""
 "Catch IDs will show Post ID, Page ID, Media ID, Links ID, Category ID, Tag "
 "ID and UserID in the respective admin section tables."
 msgstr ""
+"Catch ID će prikazati ID posta, ID stranice, ID medija, ID linkova, ID "
+"kategorije, ID oznake i ID korisnika u odgovarajuće tabele odeljka za "
+"administratore."
 
 #: ../admin/modules/dashboard.php:90
 msgid "Social Icons gives you an option to add in your Social Profiles."
 msgstr ""
+"Social Icons omogućava vam dodavanje na svojim profilima društvenih mreža."
 
 #: ../admin/modules/dashboard.php:93
 msgid ""
@@ -239,6 +259,9 @@ msgid ""
 "in Shortcode in your Page/Post Content or by adding the function in your "
 "template files."
 msgstr ""
+"Možete dodati Social Icons u widget-e na traci sa bočnim menijem ili u "
+"shortcode u sadržaj posta/stranice ili tako što ćete dodati funkcije u svoje "
+"datoteke šablona."
 
 #: ../admin/modules/dashboard.php:121
 msgid ""
@@ -246,10 +269,14 @@ msgid ""
 "social graph. For instance, this is used on Facebook to allow any web page "
 "to have the same functionality as any other object on Facebook."
 msgstr ""
+"Open Graph protokol omogućava vašem site-u da postane značajan objekat na "
+"društvenom grafikonu. Na primer, koristi se na Facebook-u kako bi omogućio "
+"bilo kojoj web stranici da ima istu funkciju kao i svi drugi objekti na "
+"Facebook-u."
 
 #: ../admin/modules/dashboard.php:148
 msgid "SEO ( BETA Version )"
-msgstr ""
+msgstr "SEO (BETA Verzija)"
 
 #: ../admin/modules/dashboard.php:150
 msgid ""
@@ -257,97 +284,102 @@ msgid ""
 "specific Pages or Posts and Categories page. This section adds SEO meta data "
 "to site's section."
 msgstr ""
+"SEO je u BETA verziji. SEO se može koristiti za dodavanje SEO meta oznaka "
+"početnoj stranici, određenim stranicama ili postovima i stranici kategorija. "
+"Ovaj odeljak dodaje SEO meta podatke u odeljak site-a."
 
 #: ../admin/modules/header.php:14
 msgid "http://facebook.com/catchthemes"
-msgstr ""
+msgstr "http://facebook.com/catchthemes"
 
 #: ../admin/modules/header.php:16
 msgid "https://twitter.com/catchthemes"
-msgstr ""
+msgstr "https://twitter.com/catchthemes"
 
 #: ../admin/modules/header.php:22
 msgid "Catch Web Tools By"
-msgstr ""
+msgstr "Catch Web Tools autor"
 
 #: ../admin/modules/header.php:24
 msgid "http://catchthemes.com/"
-msgstr ""
+msgstr "http://catchthemes.com/"
 
 #: ../admin/modules/header.php:24 ../admin/modules/header.php:25
 msgid "Catch Themes"
-msgstr ""
+msgstr "Catch Teme"
 
 #: ../admin/modules/header.php:32
 msgid "http://catchthemes.com/forum/catch-web-tools/"
-msgstr ""
+msgstr "http://catchthemes.com/forum/catch-web-tools/"
 
 #: ../admin/modules/header.php:32
 msgid "Support Forum"
-msgstr ""
+msgstr "Forum za podršku"
 
 #: ../admin/modules/header.php:33
 msgid "http://catchthemes.com/wp-plugins/catch-web-tools/"
-msgstr ""
+msgstr "http://catchthemes.com/wp-plugins/catch-web-tools/"
 
 #: ../admin/modules/header.php:33
 msgid "Plugin Details"
-msgstr ""
+msgstr "Detalji za plugin"
 
 #: ../admin/modules/header.php:34
 msgid "https://www.facebook.com/catchwebtools/"
-msgstr ""
+msgstr "https://www.facebook.com/catchwebtools/"
 
 #: ../admin/modules/header.php:34
 msgid "Like Catch Themes on Facebook"
-msgstr ""
+msgstr "Kliknite na ‘Sviđa mi se’ za Catch Themes na Facebook-u"
 
 #: ../admin/modules/header.php:34 ../admin/modules/social-icons.php:109
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: ../admin/modules/header.php:35
 msgid "https://twitter.com/catchwebtools/"
-msgstr ""
+msgstr "https://twitter.com/catchwebtools/"
 
 #: ../admin/modules/header.php:35
 msgid "Follow Catch Themes on Twitter"
-msgstr ""
+msgstr "Pratite Catch Themes na Twitter-u"
 
 #: ../admin/modules/header.php:35 ../admin/modules/social-icons.php:119
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: ../admin/modules/header.php:36
 msgid "http://wordpress.org/support/view/plugin-reviews/catch-web-tools"
-msgstr ""
+msgstr "http://wordpress.org/support/view/plugin-reviews/catch-web-tools"
 
 #: ../admin/modules/header.php:36
 msgid "Rate us 5 Star on WordPress"
-msgstr ""
+msgstr "Ocenite nas sa 5 zvezdica na WordPress-u"
 
 #: ../admin/modules/header.php:36
 msgid "5 Star Rating"
-msgstr ""
+msgstr "5 zvezdica"
 
 #: ../admin/modules/header.php:44
 msgid "Plugin Options Saved."
-msgstr ""
+msgstr "Opcije plugin-a sačuvane"
 
 #: ../admin/modules/opengraph.php:15 ../admin/modules/opengraph.php:20
 msgid "Enable Open Graph Module"
-msgstr ""
+msgstr "Aktiviraj Open Graph Module"
 
 #: ../admin/modules/opengraph.php:24 ../admin/modules/seo.php:24
 #: ../admin/modules/social-icons.php:25 ../admin/modules/webmaster.php:28
 msgid "Check to Enable"
-msgstr ""
+msgstr "Štiklirajte da biste aktivirali"
 
 #: ../admin/modules/opengraph.php:25
 msgid ""
 "Add Open Graph meta data to your site's <code>&lt;head&gt;</code> section. "
 "You can specify some of the IDs that are sometimes needed below:"
 msgstr ""
+"Dodajte Open Graph meta podatke <code>&lt;zaglavlju&gt;</code> svog site-a. "
+"Možete navesti neke od potrebnih ID-ja u delu koji sledi:"
 
 #: ../admin/modules/opengraph.php:26
 msgid ""
@@ -355,69 +387,75 @@ msgid ""
 "Tools Custom Meta Box which shows up in Pages' and Posts' add/edit sections "
 "once this function is enabled."
 msgstr ""
+"Open Graph oznake za određene stranice ili postove mogu se dodati uz  Catch "
+"Web Tools Custom Meta Box koji se prikazuje u delovima za dodavanje/"
+"uređivanje stranica i postova nakon aktiviranja te opcije."
 
 #: ../admin/modules/opengraph.php:35
 msgid "Facebook Settings"
-msgstr ""
+msgstr "Facebook podešavanja"
 
 #: ../admin/modules/opengraph.php:40
 msgid "Facebook App ID"
-msgstr ""
+msgstr "ID Facebook aplikacije"
 
 #: ../admin/modules/opengraph.php:56
 msgid "Homepage Settings"
-msgstr ""
+msgstr "Podešavanja početne stranice"
 
 #: ../admin/modules/opengraph.php:119
 msgid "Sitename"
-msgstr ""
+msgstr "Naziv site-a"
 
 #: ../admin/modules/opengraph.php:131
 msgid "Locale"
-msgstr ""
+msgstr "Lokalni"
 
 #: ../admin/modules/opengraph.php:146
 msgid "Default Settings"
-msgstr ""
+msgstr "Podrazumevana podešavanja"
 
 #: ../admin/modules/opengraph.php:152
 msgid "Default Image"
-msgstr ""
+msgstr "Podrazumevana slika"
 
 #: ../admin/modules/opengraph.php:160
 msgid ""
 "This image is used if the post/page being shared does not contain any images."
 msgstr ""
+"Ova slika koristi se ako podeljeni post ili stranica ne sadrže nikakve slike."
 
 #: ../admin/modules/opengraph.php:169
 msgid "Custom Settings (Only for Advanced Users)"
-msgstr ""
+msgstr "Prilagođena podešavanja (samo za napredne korisnike)"
 
 #: ../admin/modules/opengraph.php:175
 msgid "Custom Tags"
-msgstr ""
+msgstr "Prilagođene oznake"
 
 #: ../admin/modules/opengraph.php:181
 msgid "For any other type of Open Graph tags."
-msgstr ""
+msgstr "Za bilo koju drugu vrstu Open Graph oznaka."
 
 #: ../admin/modules/opengraph.php:182
 msgid "E.g:"
-msgstr ""
+msgstr "Npr."
 
 #: ../admin/modules/opengraph.php:183
 msgid "If you do not know what this is, you should probably leave it empty."
-msgstr ""
+msgstr "Ako ne znate šta je ovo, trebalo bi da ostavite nepopunjeno."
 
 #: ../admin/modules/seo.php:15 ../admin/modules/seo.php:20
 msgid "Enable SEO Module"
-msgstr ""
+msgstr "Aktiviraj SEO modul"
 
 #: ../admin/modules/seo.php:25
 msgid ""
 "Please make sure you have disabled all the SEO plugins before activating "
 "Catch Work Tools SEO Module."
 msgstr ""
+"Proverite da li ste deaktivirali sve SEO dodatke pre aktiviranja Catch Work "
+"Tools SEO Modula."
 
 #: ../admin/modules/seo.php:26
 msgid ""
@@ -426,150 +464,161 @@ msgid ""
 "function is enabled. Same settings will show up in Categories' add/edit "
 "pages."
 msgstr ""
+"SEO za određene stranice ili postove može se dodati kroz Catch Web Tools "
+"Custom Meta Box koji se prikazuje u delovima za dodavanje/uređivanje "
+"stranica i postova nakon aktiviranja ove funkcije. Ista podešavanja pojaviće "
+"se kategorijama, u delovima za dodavanje ili uređivanje."
 
 #: ../admin/modules/seo.php:35
 msgid "SEO Homepage Settings"
-msgstr ""
+msgstr "SEO podešavanja početne stranice"
 
 #: ../admin/modules/seo.php:40
 msgid "SEO Title"
-msgstr ""
+msgstr "SEO naziv"
 
 #: ../admin/modules/seo.php:72
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: ../admin/modules/social-icons.php:15 ../admin/modules/social-icons.php:20
 msgid "Enable Social Icons Module"
-msgstr ""
+msgstr "Aktiviraj Social Icons Modul"
 
 #: ../admin/modules/social-icons.php:30
 msgid "Shortcode"
-msgstr ""
+msgstr "Shortcode"
 
 #: ../admin/modules/social-icons.php:32
 msgid "The shortcode"
-msgstr ""
+msgstr "Određeni shortcode"
 
 #: ../admin/modules/social-icons.php:34
 msgid "(in the Post/Page content) will enable Social Icons into the Page/Post."
 msgstr ""
+"(u sadržaju posta/stranice) aktiviraće Social Icons na stranicama/postovima."
 
 #: ../admin/modules/social-icons.php:36
 msgid "Widget"
-msgstr ""
+msgstr "Widget"
 
 #: ../admin/modules/social-icons.php:38
 msgid ""
 "Drag and drop Catch Web Tools' Social Icons Widget to any Sidebar for "
 "results."
 msgstr ""
+"Prevucite i pozicionirajte Catch Web Tools' Social Icons Widget na bilo koju "
+"traku bočnog menija."
 
 #: ../admin/modules/social-icons.php:40
 msgid "In WordPress Template"
-msgstr ""
+msgstr "U WordPress šablonu"
 
 #: ../admin/modules/social-icons.php:42
 msgid ""
 "If Catch Web Tools' Social Icons is required in WordPress template, the "
 "following code can be used: "
 msgstr ""
+"Ako vam je za WordPress šablon potreban Catch Web Tools' Social Icons, "
+"možete upotrebiti sledeći kod: "
 
 #: ../admin/modules/social-icons.php:54
 msgid "OR"
-msgstr ""
+msgstr "ILI"
 
 #: ../admin/modules/social-icons.php:75
 msgid "Social Icons Settings"
-msgstr ""
+msgstr "Social Icons podešavanja"
 
 #: ../admin/modules/social-icons.php:80
 msgid "Enable Social Icons Sidebar?"
-msgstr ""
+msgstr "Aktiviraj Social Icons bočni meni?"
 
 #: ../admin/modules/social-icons.php:82
 msgid " Drag and Drop Catch Web Tools Social Icons widget to any sidebar"
 msgstr ""
+"Prevucite i pozicionirajte Drop Catch Web Tools Social Icons widget na bilo "
+"koji bočni meni."
 
 #: ../admin/modules/social-icons.php:87
 msgid "Social Icon Size (px)"
-msgstr ""
+msgstr "Social Icon veličina (u pikselima)"
 
 #: ../admin/modules/social-icons.php:92
 msgid "Make sure to set the size to a multiple of 16px"
-msgstr ""
+msgstr "Podesite veličinu tako da se množi sa 16 piksela"
 
 #: ../admin/modules/social-icons.php:92
 msgid " or the icons could end up looking fuzzy"
-msgstr ""
+msgstr "ili će vam ikonice biti mutne "
 
 #: ../admin/modules/social-icons.php:98
 msgid "Social Icon Color"
-msgstr ""
+msgstr "Boja za Social Icon"
 
 #: ../admin/modules/social-icons.php:129
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: ../admin/modules/social-icons.php:139
 msgid "Rss Feed"
-msgstr ""
+msgstr "Rss Feed"
 
 #: ../admin/modules/social-icons.php:149
 msgid "WordPress"
-msgstr ""
+msgstr "WordPress"
 
 #: ../admin/modules/social-icons.php:159
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: ../admin/modules/social-icons.php:169
 msgid "LinkedIn"
-msgstr ""
+msgstr "Linkedin"
 
 #: ../admin/modules/social-icons.php:179
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest"
 
 #: ../admin/modules/social-icons.php:189
 msgid "Flickr"
-msgstr ""
+msgstr "Flickr"
 
 #: ../admin/modules/social-icons.php:199
 msgid "Vimeo"
-msgstr ""
+msgstr "Vimeo"
 
 #: ../admin/modules/social-icons.php:209
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 #: ../admin/modules/social-icons.php:219
 msgid "Tumblr"
-msgstr ""
+msgstr "Tumblr"
 
 #: ../admin/modules/social-icons.php:229
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: ../admin/modules/social-icons.php:239
 msgid "CodePen"
-msgstr ""
+msgstr "CodePen"
 
 #: ../admin/modules/social-icons.php:249
 msgid "Polldaddy"
-msgstr ""
+msgstr "Polldaddy"
 
 #: ../admin/modules/social-icons.php:259
 msgid "Path"
-msgstr ""
+msgstr "Path"
 
 #: ../admin/modules/social-icons.php:268
 msgid "Dribbble"
-msgstr ""
+msgstr "Dribbble"
 
 #: ../admin/modules/webmaster.php:18 ../admin/modules/webmaster.php:24
 msgid "Enable Webmaster Module"
-msgstr ""
+msgstr "Aktiviraj Webmaster Module"
 
 #: ../admin/modules/webmaster.php:38
 msgid "Feed Redirect / Custom Feeds"
@@ -591,31 +640,33 @@ msgstr ""
 
 #: ../admin/modules/webmaster.php:76
 msgid "Header and Footer Scripts"
-msgstr ""
+msgstr "Skripta za zaglavlje i podnožje "
 
 #: ../admin/modules/webmaster.php:83 ../admin/modules/webmaster.php:96
 msgid "Enter scripts or code you would like output to"
-msgstr ""
+msgstr "Unesite skripta ili kod koje biste želeli da prikažete"
 
 #: ../admin/modules/webmaster.php:89 ../admin/modules/webmaster.php:102
 msgid "The"
-msgstr ""
+msgstr "The"
 
 #: ../admin/modules/webmaster.php:89
 msgid ""
 "hook executes immediately before the closing </head> tag in the document "
 "source."
 msgstr ""
+"udica izvršava neposredno pre zatvaranja </head> oznake u izvoru dokumenta."
 
 #: ../admin/modules/webmaster.php:102
 msgid ""
 "hook executes immediately before the closing </body> tag in the document "
 "source."
 msgstr ""
+"udica izvršava neposredno pre zatvaranja </body> oznake u izvoru dokumenta."
 
 #: ../admin/modules/webmaster.php:111
 msgid "Site Verification"
-msgstr ""
+msgstr "Provera site-a"
 
 #: ../admin/modules/webmaster.php:114
 msgid ""
@@ -623,33 +674,38 @@ msgid ""
 "your site is already verified, you can skip this section. Enter the verify "
 "meta values for"
 msgstr ""
+"Možete koristiti sledeće okvire da biste proverili site uz pomoć različitih "
+"Webmaster Tools-a. Ako je vaš site već verifikovan, možete preskočiti taj "
+"deo. Unesite meta vrednosti na proveru za  "
 
 #: ../admin/modules/webmaster.php:120
 msgid "Google Webmaster Tools"
-msgstr ""
+msgstr "Google Webmaster Tools"
 
 #: ../admin/modules/webmaster.php:125
 msgid "Enter your Google ID number only"
-msgstr ""
+msgstr "Unesite samo svoj Google ID broj"
 
 #: ../admin/modules/webmaster.php:132
 msgid "Bing Webmaster Tools"
-msgstr ""
+msgstr "Bing Webmaster Tools"
 
 #: ../admin/modules/webmaster.php:137
 msgid "Enter your Bing ID number only"
-msgstr ""
+msgstr "Unesite samo svoj Bing ID broj"
 
 #: ../admin/modules/webmaster.php:144
 msgid "Alexa Verification ID"
-msgstr ""
+msgstr "Alexa Verification ID"
 
 #: ../admin/modules/webmaster.php:149
 msgid "Enter your Alexa ID number only"
-msgstr ""
+msgstr "Unesite samo svoj Alexa ID broj"
 
 #: ../functions.php:65
 msgid ""
 "Catch Web Tools requires PHP 5.2 or higher, as does WordPress 3.5 and "
 "higher. The plugin has now disabled itself."
 msgstr ""
+"Catch Web Tools zahteva PHP 5.2 ili noviju, kao i WordPress 3.5 ili noviju "
+"verziju. Plugin se sada deaktivirao. "
